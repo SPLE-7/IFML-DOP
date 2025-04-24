@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="ASCII"?>
-<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_aJAu4CEIEfCyTIMTUXcE5w">
+<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:dop-extension="http://amanah.cs.ui.ac.id/ifml/dop" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_aJAu4CEIEfCyTIMTUXcE5w">
+  <interactionFlowModel id="_r66scCEXEfCyTIMTUXcE5w">
+    <interactionFlowModelElements xsi:type="dop-extension:DeltaModuleDefinition" id="_r6_k8CEXEfCyTIMTUXcE5w" name="Delta Module Definition">
+      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_uZm8cCEXEfCyTIMTUXcE5w" name="Lihat Buku Digital Page">
+        <viewElements xsi:type="dop-extension:ModifiedList" id="_0b4A4CEXEfCyTIMTUXcE5w" name="List Buku Digital">
+          <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_5XlF4CEXEfCyTIMTUXcE5w" name="List Buku Digital">
+            <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_-ZtjACEXEfCyTIMTUXcE5w" name="Link Buku">
+              <featureConcept href="DigitalSupport.core#//@domainModel/@domainElements.13"/>
+            </subViewComponentParts>
+            <modifies href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0"/>
+          </viewComponentParts>
+          <modifies href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0"/>
+        </viewElements>
+        <modifies href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_m5fkgCEYEfCyTIMTUXcE5w" name="Tambah Buku Digital page">
+        <viewElements xsi:type="dop-extension:ModifiedForm" id="_JO9QcCEnEfCyTIMTUXcE5w" name="Modified Form">
+          <viewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_P4TjACEnEfCyTIMTUXcE5w" name="Link Buku">
+            <annotations text="Required"/>
+            <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_ibz6cCEnEfCyTIMTUXcE5w" name="Link Buku">
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </subViewComponentParts>
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </viewComponentParts>
+          <modifies href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0"/>
+        </viewElements>
+        <modifies href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
+      </interactionFlowModelElement>
+      <uses href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0"/>
+    </interactionFlowModelElements>
+  </interactionFlowModel>
   <domainModel id="_aJAu4SEIEfCyTIMTUXcE5w">
     <domainElements xsi:type="core:UMLDomainConcept" id="_aJX7QCEIEfCyTIMTUXcE5w" name="DaftarBukuImpl">
       <classifier xsi:type="uml:Class" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_1DXPYCCuEfCyTIMTUXcE5w"/>

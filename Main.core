@@ -5,7 +5,11 @@
       <annotations text="/"/>
     </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_RJwV4CD9EfCyTIMTUXcE5w" name="Menu">
-      <viewElementEvents id="_SraV4CD9EfCyTIMTUXcE5w" name="Daftar Buku"/>
+      <viewElementEvents id="_SraV4CD9EfCyTIMTUXcE5w" name="Daftar Buku">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_3ff7MCEdEfCyTIMTUXcE5w">
+          <targetInteractionFlowElement xsi:type="core:ViewContainer" href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
+      </viewElementEvents>
     </interactionFlowModelElements>
   </interactionFlowModel>
   <domainModel id="_tuy5ISD8EfCyTIMTUXcE5w">
