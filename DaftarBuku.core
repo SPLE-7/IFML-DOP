@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="ASCII"?>
+<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_mU-doCDVEfCyTIMTUXcE5w">
+  <interactionFlowModel id="_9wlhwCD8EfCyTIMTUXcE5w">
+    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_aGg1gCD9EfCyTIMTUXcE5w" name="Module Definition">
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_duclgCD9EfCyTIMTUXcE5w" name="Lihat Buku Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@actionEvents.0/@outInteractionFlows.0">
+        <annotations text="/daftarbuku/list"/>
+        <viewElementEvents id="_mgoM0CD9EfCyTIMTUXcE5w" name="Tambah Buku">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_NTn1ACEBEfCyTIMTUXcE5w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
+        </viewElementEvents>
+        <viewElements xsi:type="ext:List" id="_pTNpMCD9EfCyTIMTUXcE5w" name="List Buku">
+          <viewElementEvents id="_kZyfUCEBEfCyTIMTUXcE5w" name="Hapus">
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_LT_YMCEEEfCyTIMTUXcE5w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
+          </viewElementEvents>
+          <viewComponentParts xsi:type="core:DataBinding" id="_ubNdwCD9EfCyTIMTUXcE5w" name="List Buku">
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_m_7igCD-EfCyTIMTUXcE5w" name="Id Buku">
+              <featureConcept href="Main.core#//@domainModel/@domainElements.1"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_4h5H8CD_EfCyTIMTUXcE5w" name="Judul Buku">
+              <featureConcept href="Main.core#//@domainModel/@domainElements.2"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_47i-ECD_EfCyTIMTUXcE5w" name="Penulis">
+              <featureConcept href="Main.core#//@domainModel/@domainElements.3"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_Tdo8sCEAEfCyTIMTUXcE5w" name="Penerbit">
+              <featureConcept href="Main.core#//@domainModel/@domainElements.4"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_bIz4oCEAEfCyTIMTUXcE5w" name="Deskripsi Buku">
+              <featureConcept href="Main.core#//@domainModel/@domainElements.6"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_cqqs8CEAEfCyTIMTUXcE5w" name="Jumlah Halaman">
+              <featureConcept href="Main.core#//@domainModel/@domainElements.5"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_z_xLICEAEfCyTIMTUXcE5w" name="Genre">
+              <featureConcept href="Main.core#//@domainModel/@domainElements.7"/>
+            </subViewComponentParts>
+          </viewComponentParts>
+        </viewElements>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_Bjo_0CEBEfCyTIMTUXcE5w" name="Tambah Buku Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="/daftarbuku/tambah"/>
+        <viewElements xsi:type="ext:Form" id="_TJuswCEBEfCyTIMTUXcE5w" name="Tambah Buku">
+          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_86cfwCEDEfCyTIMTUXcE5w" name="SImpan Buku">
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_jvWT0CEEEfCyTIMTUXcE5w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3"/>
+          </viewElementEvents>
+          <viewComponentParts xsi:type="ext:SimpleField" id="_2Wk1ACEBEfCyTIMTUXcE5w" name="Id Buku">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_gF06UCECEfCyTIMTUXcE5w" name="Id Buku">
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+            </subViewComponentParts>
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </viewComponentParts>
+          <viewComponentParts xsi:type="ext:SimpleField" id="_8ekuACEBEfCyTIMTUXcE5w" name="Judul Buku">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_reoloCECEfCyTIMTUXcE5w" name="Judul Buku">
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </subViewComponentParts>
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </viewComponentParts>
+          <viewComponentParts xsi:type="ext:SimpleField" id="_GE02kCECEfCyTIMTUXcE5w" name="Penulis">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_6yg_YCECEfCyTIMTUXcE5w" name="Penulis">
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </subViewComponentParts>
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </viewComponentParts>
+          <viewComponentParts xsi:type="ext:SimpleField" id="_IJcZsCECEfCyTIMTUXcE5w" name="Penerbit">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_PFUxQCEDEfCyTIMTUXcE5w" name="Penerbit">
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </subViewComponentParts>
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </viewComponentParts>
+          <viewComponentParts xsi:type="ext:SimpleField" id="_L9QpkCECEfCyTIMTUXcE5w" name="Jumlah Halaman">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_Z1JxACEDEfCyTIMTUXcE5w" name="Jumlah Halaman">
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </subViewComponentParts>
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </viewComponentParts>
+          <viewComponentParts xsi:type="ext:SimpleField" id="_SEMLkCECEfCyTIMTUXcE5w" name="Deskripsi Buku">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_qhImICEDEfCyTIMTUXcE5w" name="Deskripsi Buku">
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </subViewComponentParts>
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </viewComponentParts>
+          <viewComponentParts xsi:type="ext:SimpleField" id="_a6YJICECEfCyTIMTUXcE5w" name="Genre">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_25x90CEDEfCyTIMTUXcE5w" name="Genre">
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </subViewComponentParts>
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </viewComponentParts>
+        </viewElements>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_Bx4IwCEEEfCyTIMTUXcE5w" name="Hapus Buku" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="DELETE"/>
+        <actionEvents id="_Od5IYCEEEfCyTIMTUXcE5w">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_eGl7kCEEEfCyTIMTUXcE5w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </actionEvents>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_Cec64CEEEfCyTIMTUXcE5w" name="Simpan Buku" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="POST"/>
+        <actionEvents id="_kpGmUCEEEfCyTIMTUXcE5w">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_mQh3ICEEEfCyTIMTUXcE5w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </actionEvents>
+      </interactionFlowModelElement>
+    </interactionFlowModelElements>
+  </interactionFlowModel>
+  <domainModel id="_mU_EsCDVEfCyTIMTUXcE5w">
+    <domainElements xsi:type="core:UMLDomainConcept" id="_mVieUCDVEfCyTIMTUXcE5w" name="DaftarBukuImpl">
+      <classifier xsi:type="uml:Class" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_1DXPYCCuEfCyTIMTUXcE5w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_mVlhoCDVEfCyTIMTUXcE5w" name="idBuku">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_1khw0CCwEfCyTIMTUXcE5w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_mVmIsCDVEfCyTIMTUXcE5w" name="judulBuku">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_BgKHQCCvEfCyTIMTUXcE5w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_mVmIsSDVEfCyTIMTUXcE5w" name="penulis">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_AhvFQCCxEfCyTIMTUXcE5w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_mVmIsiDVEfCyTIMTUXcE5w" name="penerbit">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_HUjc4CCxEfCyTIMTUXcE5w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_mVmIsyDVEfCyTIMTUXcE5w" name="jumlahHalaman">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_cqNL0CCxEfCyTIMTUXcE5w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_mVmItCDVEfCyTIMTUXcE5w" name="deskripsiBuku">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_v_u7cCDEEfCyTIMTUXcE5w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_mVmItSDVEfCyTIMTUXcE5w" name="DaftarBukuImpl">
+      <classifier xsi:type="uml:Class" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_MLDDACC3EfCyTIMTUXcE5w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_mVmItiDVEfCyTIMTUXcE5w" name="daftarbukuimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_3pZHYiC3EfCyTIMTUXcE5w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_mVmItyDVEfCyTIMTUXcE5w" name="jumlahBuku">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_FbJAACC4EfCyTIMTUXcE5w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_mVmIuCDVEfCyTIMTUXcE5w" name="DaftarBukuImpl">
+      <classifier xsi:type="uml:Class" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_ZqyloCC3EfCyTIMTUXcE5w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_mVmIuSDVEfCyTIMTUXcE5w" name="daftarbukuimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_8ju6ciC3EfCyTIMTUXcE5w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_mVmIuiDVEfCyTIMTUXcE5w" name="linkBuku">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_OYi_4CC4EfCyTIMTUXcE5w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_mVmIuyDVEfCyTIMTUXcE5w" name="daftarbukuimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_3paVgiC3EfCyTIMTUXcE5w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_mVmIvCDVEfCyTIMTUXcE5w" name="daftarbukuimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_8jvhgiC3EfCyTIMTUXcE5w"/>
+    </domainElements>
+  </domainModel>
+</core:IFMLModel>
