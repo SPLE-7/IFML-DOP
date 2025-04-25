@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="ASCII"?>
 <core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:dop-extension="http://amanah.cs.ui.ac.id/ifml/dop" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_d4gfcCEIEfCyTIMTUXcE5w">
   <interactionFlowModel id="_GwaGACEJEfCyTIMTUXcE5w">
-    <interactionFlowModelElements xsi:type="dop-extension:DeltaModuleDefinition" id="_GwdJUCEJEfCyTIMTUXcE5w" name="Delta">
+    <interactionFlowModelElements xsi:type="dop-extension:DeltaModuleDefinition" id="_GwdJUCEJEfCyTIMTUXcE5w" name="Buku Fisik">
+      <inputPorts id="_3m8mkCGXEfCdUM_iKtJ5JQ" name="Input Port"/>
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_nAshECEKEfCyTIMTUXcE5w" name="Lihat Buku Fisik Page">
+        <annotations text="/daftarbuku/fisik/list"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.1/@viewElementEvents.0/@outInteractionFlows.2"/>
         <viewElements xsi:type="dop-extension:ModifiedList" id="__IDioCEKEfCyTIMTUXcE5w" name="List Buku Fisik">
-          <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_JY118CELEfCyTIMTUXcE5w" name="Modified Data Binding">
+          <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_JY118CELEfCyTIMTUXcE5w" name="List Buku Fisik" uniformResourceIdentifier="/call/bukufisik/list">
             <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_RTuo4CELEfCyTIMTUXcE5w" name="Jumlah Buku">
-              <featureConcept href="DigitalSupport.core#//@domainModel/@domainElements.10"/>
+              <featureConcept href="main.core#//@domainModel/@domainElements.10"/>
             </subViewComponentParts>
             <modifies href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0"/>
           </viewComponentParts>
@@ -15,6 +18,7 @@
         <modifies href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_i3SmQCELEfCyTIMTUXcE5w" name="Tambah Buku Fisik Page">
+        <annotations text="/daftarbuku/fisik/tambah"/>
         <viewElements xsi:type="dop-extension:ModifiedForm" id="_phE9sCELEfCyTIMTUXcE5w" name="Tambah Buku Fisik">
           <viewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_xp4Q0CELEfCyTIMTUXcE5w" name="Jumlah Buku">
             <annotations text="Required"/>
