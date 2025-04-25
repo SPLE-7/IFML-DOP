@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:dop-extension="http://amanah.cs.ui.ac.id/ifml/dop" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_tuy5ICD8EfCyTIMTUXcE5w">
   <interactionFlowModel id="_QoNvECD9EfCyTIMTUXcE5w">
-    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_QoOWICD9EfCyTIMTUXcE5w" name="ViewContainer">
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_QoOWICD9EfCyTIMTUXcE5w" name="Home" isXOR="true">
       <annotations text="/"/>
     </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_RJwV4CD9EfCyTIMTUXcE5w" name="Menu">
@@ -14,6 +14,11 @@
         </outInteractionFlows>
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_rjrzkCGYEfCdUM_iKtJ5JQ">
           <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="BukuFisik.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
+      </viewElementEvents>
+      <viewElementEvents id="_gc6_ECHbEfCVTpuhwdZlGw" name="Statistik">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_k8jMECHbEfCVTpuhwdZlGw">
+          <targetInteractionFlowElement xsi:type="core:PortDefinition" href="Statistik.core#//@interactionFlowModel/@interactionFlowModelElements.0/@inputPorts.0"/>
         </outInteractionFlows>
       </viewElementEvents>
     </interactionFlowModelElements>
