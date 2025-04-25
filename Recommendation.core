@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="ASCII"?>
+<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_xiF50CHnEfCtOMlFT5Uj-A">
+  <interactionFlowModel id="_3Yt5gCHoEfCtOMlFT5Uj-A">
+    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_8FZrECHoEfCtOMlFT5Uj-A" name="Recommendation">
+      <annotations text="/recommendation"/>
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_pkpI0CHsEfCtOMlFT5Uj-A" name="List Rekomendasi Page">
+        <viewElements xsi:type="core:ViewComponent" id="_mewuQCHyEfCtOMlFT5Uj-A" name="List Rekomendasi buku">
+          <viewComponentParts xsi:type="core:DataBinding" id="_bf7MsCHzEfCtOMlFT5Uj-A" name="List Rekomendasi Buku">
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_ywqIQCHzEfCtOMlFT5Uj-A" name="Id buku">
+              <featureConcept href="DaftarBuku.core#//@domainModel/@domainElements.1"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_KVWhoCH0EfCtOMlFT5Uj-A" name="Judul " featureConcept="//@domainModel/@domainElements.2"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_Re-2wCH0EfCtOMlFT5Uj-A" name="Penulis">
+              <featureConcept href="DaftarBuku.core#//@domainModel/@domainElements.3"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_TCKgwCH0EfCtOMlFT5Uj-A" name="Genre" featureConcept="//@domainModel/@domainElements.7"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_UqUxYCH0EfCtOMlFT5Uj-A" name="Jumlah Halaman">
+              <featureConcept href="BukuDigital.core#//@domainModel/@domainElements.5"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_V8KMsCH0EfCtOMlFT5Uj-A" name="Deskripsi buku">
+              <featureConcept href="Statistik.core#//@domainModel/@domainElements.6"/>
+            </subViewComponentParts>
+          </viewComponentParts>
+        </viewElements>
+      </interactionFlowModelElement>
+    </interactionFlowModelElements>
+  </interactionFlowModel>
+  <domainModel id="_xiGg4CHnEfCtOMlFT5Uj-A">
+    <domainElements xsi:type="core:UMLDomainConcept" id="_xihXoCHnEfCtOMlFT5Uj-A" name="DaftarBukuImpl">
+      <classifier xsi:type="uml:Class" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_1DXPYCCuEfCyTIMTUXcE5w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xiilwCHnEfCtOMlFT5Uj-A" name="idBuku">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_1khw0CCwEfCyTIMTUXcE5w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xiilwSHnEfCtOMlFT5Uj-A" name="judulBuku">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_BgKHQCCvEfCyTIMTUXcE5w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xiilwiHnEfCtOMlFT5Uj-A" name="penulis">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_AhvFQCCxEfCyTIMTUXcE5w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xiilwyHnEfCtOMlFT5Uj-A" name="penerbit">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_HUjc4CCxEfCyTIMTUXcE5w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xiilxCHnEfCtOMlFT5Uj-A" name="jumlahHalaman">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_cqNL0CCxEfCyTIMTUXcE5w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xiilxSHnEfCtOMlFT5Uj-A" name="deskripsiBuku">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_v_u7cCDEEfCyTIMTUXcE5w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xiilxiHnEfCtOMlFT5Uj-A" name="genre">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_tHnPQCD6EfCyTIMTUXcE5w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xiilxyHnEfCtOMlFT5Uj-A" name="statistikimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_KXeFgCHIEfCVTpuhwdZlGw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_xiilyCHnEfCtOMlFT5Uj-A" name="DaftarBukuImpl">
+      <classifier xsi:type="uml:Class" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_MLDDACC3EfCyTIMTUXcE5w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xiilySHnEfCtOMlFT5Uj-A" name="daftarbukuimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_3pZHYiC3EfCyTIMTUXcE5w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xijM0CHnEfCtOMlFT5Uj-A" name="jumlahBuku">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_FbJAACC4EfCyTIMTUXcE5w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_xijM0SHnEfCtOMlFT5Uj-A" name="DaftarBukuImpl">
+      <classifier xsi:type="uml:Class" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_ZqyloCC3EfCyTIMTUXcE5w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xijM0iHnEfCtOMlFT5Uj-A" name="daftarbukuimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_8ju6ciC3EfCyTIMTUXcE5w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xijM0yHnEfCtOMlFT5Uj-A" name="linkBuku">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_OYi_4CC4EfCyTIMTUXcE5w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_xijM1CHnEfCtOMlFT5Uj-A" name="AkunImpl">
+      <classifier xsi:type="uml:Class" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_1dlqYCG4EfCSL5sBBSYZEw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xijM1SHnEfCtOMlFT5Uj-A" name="idAkun">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_4pjQECG4EfCSL5sBBSYZEw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xijM1iHnEfCtOMlFT5Uj-A" name="nama">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_9xy8QCG4EfCSL5sBBSYZEw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_xijM1yHnEfCtOMlFT5Uj-A" name="StatistikImpl">
+      <classifier xsi:type="uml:Class" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_FwvSUCHFEfCVTpuhwdZlGw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xijM2CHnEfCtOMlFT5Uj-A" name="jumlahBukuStatistik">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_er2ycCHNEfCVTpuhwdZlGw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xijM2SHnEfCtOMlFT5Uj-A" name="namaChart">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_iphh4CHNEfCVTpuhwdZlGw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_xijM2iHnEfCtOMlFT5Uj-A" name="hitungJumlahBuku">
+      <behavioralFeature xsi:type="uml:Operation" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_tiphMCHFEfCVTpuhwdZlGw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_xijM2yHnEfCtOMlFT5Uj-A" name="PeminjamanBukuImpl">
+      <classifier xsi:type="uml:Class" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_FRoI4CHPEfCSL5sBBSYZEw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xijz4CHnEfCtOMlFT5Uj-A" name="idPeminjamanBuku">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_L4-3YCHPEfCSL5sBBSYZEw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xijz4SHnEfCtOMlFT5Uj-A" name="status">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_hYfF4CHPEfCSL5sBBSYZEw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xijz4iHnEfCtOMlFT5Uj-A" name="akunimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_nDoDwiHPEfCSL5sBBSYZEw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xijz4yHnEfCtOMlFT5Uj-A" name="daftarbukuimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_wijcUiHPEfCSL5sBBSYZEw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_xijz5CHnEfCtOMlFT5Uj-A" name="WishlistServiceImpl">
+      <classifier xsi:type="uml:Class" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_d3QI4CHREfCI6Zld1jX0fw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xijz5SHnEfCtOMlFT5Uj-A" name="WishlistId">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_FhaxACHSEfCI6Zld1jX0fw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xijz5iHnEfCtOMlFT5Uj-A" name="CreatedAt">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_JHwlkCHSEfCI6Zld1jX0fw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xijz5yHnEfCtOMlFT5Uj-A" name="akunimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_kvqgQCHTEfCI6Zld1jX0fw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xijz6CHnEfCtOMlFT5Uj-A" name="daftarbukuimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_AD2DICHUEfCI6Zld1jX0fw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xijz6SHnEfCtOMlFT5Uj-A" name="akunimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_Kg0YUCHUEfCI6Zld1jX0fw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xijz6iHnEfCtOMlFT5Uj-A" name="akunimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_TBA3wSHUEfCI6Zld1jX0fw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_xijz6yHnEfCtOMlFT5Uj-A" name="AddBookToWishlist">
+      <behavioralFeature xsi:type="uml:Operation" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_qBUSACHREfCI6Zld1jX0fw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_xijz7CHnEfCtOMlFT5Uj-A" name="RemoveBookFromWishlist">
+      <behavioralFeature xsi:type="uml:Operation" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_qtuFACHREfCI6Zld1jX0fw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_xijz7SHnEfCtOMlFT5Uj-A" name="getWishlist">
+      <behavioralFeature xsi:type="uml:Operation" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_rDtjICHREfCI6Zld1jX0fw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_xika8CHnEfCtOMlFT5Uj-A" name="WishlistServiceImpl">
+      <classifier xsi:type="uml:Class" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_dPyfQiHcEfC3faRGLZxnCQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xika8SHnEfCtOMlFT5Uj-A" name="WishlistId">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_dPyfQyHcEfC3faRGLZxnCQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xika8iHnEfCtOMlFT5Uj-A" name="CreatedAt">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_dPyfRCHcEfC3faRGLZxnCQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xika8yHnEfCtOMlFT5Uj-A" name="akunimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_dPyfRSHcEfC3faRGLZxnCQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xika9CHnEfCtOMlFT5Uj-A" name="daftarbukuimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_dPyfRiHcEfC3faRGLZxnCQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xika9SHnEfCtOMlFT5Uj-A" name="akunimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_dPyfSSHcEfC3faRGLZxnCQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xika9iHnEfCtOMlFT5Uj-A" name="akunimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_dPyfTCHcEfC3faRGLZxnCQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_xika9yHnEfCtOMlFT5Uj-A" name="AddBookToWishlist">
+      <behavioralFeature xsi:type="uml:Operation" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_dPyfTiHcEfC3faRGLZxnCQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_xika-CHnEfCtOMlFT5Uj-A" name="RemoveBookFromWishlist">
+      <behavioralFeature xsi:type="uml:Operation" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_dPyfTyHcEfC3faRGLZxnCQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_xika-SHnEfCtOMlFT5Uj-A" name="getWishlist">
+      <behavioralFeature xsi:type="uml:Operation" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_dPyfUCHcEfC3faRGLZxnCQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_xika-iHnEfCtOMlFT5Uj-A" name="ReviewImpl">
+      <classifier xsi:type="uml:Class" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_TKeq4CHWEfCYKd9j4aQklA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xika-yHnEfCtOMlFT5Uj-A" name="idReview">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_fp-4gCHWEfCYKd9j4aQklA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xilCACHnEfCtOMlFT5Uj-A" name="postedAt">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_tSCNICHXEfCYKd9j4aQklA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xilCASHnEfCtOMlFT5Uj-A" name="daftarbukuimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_0QeJcSHYEfCYKd9j4aQklA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_xilCAiHnEfCtOMlFT5Uj-A" name="ReviewImpl">
+      <classifier xsi:type="uml:Class" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_8_iLUCHYEfCYKd9j4aQklA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xilCAyHnEfCtOMlFT5Uj-A" name="reviewimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#__8ZIkiHZEfCYKd9j4aQklA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xilCBCHnEfCtOMlFT5Uj-A" name="starValue">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_Lsf5kCHaEfCYKd9j4aQklA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_xilCBSHnEfCtOMlFT5Uj-A" name="ReviewImpl">
+      <classifier xsi:type="uml:Class" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_HUGLYCHZEfCYKd9j4aQklA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xilCBiHnEfCtOMlFT5Uj-A" name="reviewimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_CYf-oiHaEfCYKd9j4aQklA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xilCByHnEfCtOMlFT5Uj-A" name="commentValue">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_fJO_ECHaEfCYKd9j4aQklA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_xilCCCHnEfCtOMlFT5Uj-A" name="RecommendationImpl">
+      <classifier xsi:type="uml:Class" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_sta1cCHdEfC3faRGLZxnCQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xilCCSHnEfCtOMlFT5Uj-A" name="daftarbukuimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_xmvNcCHgEfC3faRGLZxnCQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xilCCiHnEfCtOMlFT5Uj-A" name="akunimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_0zWTYiHgEfC3faRGLZxnCQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xilCCyHnEfCtOMlFT5Uj-A" name="wishlistserviceimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_uIRtECHhEfC3faRGLZxnCQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_xilCDCHnEfCtOMlFT5Uj-A" name="getRecommendation">
+      <behavioralFeature xsi:type="uml:Operation" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_98TmgCHhEfC3faRGLZxnCQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xilCDSHnEfCtOMlFT5Uj-A" name="daftarbukuimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_3paVgiC3EfCyTIMTUXcE5w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xilpECHnEfCtOMlFT5Uj-A" name="daftarbukuimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_8jvhgiC3EfCyTIMTUXcE5w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xilpESHnEfCtOMlFT5Uj-A" name="daftarbukuimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_KXeFgyHIEfCVTpuhwdZlGw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xilpEiHnEfCtOMlFT5Uj-A" name="peminjamanbukuimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_nDoq0CHPEfCSL5sBBSYZEw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xilpEyHnEfCtOMlFT5Uj-A" name="peminjamanbukuimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_wijcVSHPEfCSL5sBBSYZEw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xilpFCHnEfCtOMlFT5Uj-A" name="wishlistserviceimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_AD4fYCHUEfCI6Zld1jX0fw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xilpFSHnEfCtOMlFT5Uj-A" name="wishlistserviceimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_TBCF4iHUEfCI6Zld1jX0fw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xilpFiHnEfCtOMlFT5Uj-A" name="reviewimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_0QewgSHYEfCYKd9j4aQklA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xilpFyHnEfCtOMlFT5Uj-A" name="reviewimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#__8ZvoiHZEfCYKd9j4aQklA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xilpGCHnEfCtOMlFT5Uj-A" name="reviewimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_CYglsiHaEfCYKd9j4aQklA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xilpGSHnEfCtOMlFT5Uj-A" name="recommendationimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_xmwbkSHgEfC3faRGLZxnCQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xilpGiHnEfCtOMlFT5Uj-A" name="recommendationimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_0zW6cSHgEfC3faRGLZxnCQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_xilpGyHnEfCtOMlFT5Uj-A" name="recommendationimpl">
+      <structuralFeature xsi:type="uml:Property" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_uISUISHhEfC3faRGLZxnCQ"/>
+    </domainElements>
+  </domainModel>
+</core:IFMLModel>
