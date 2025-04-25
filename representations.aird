@@ -13,6 +13,7 @@
     <semanticResources>BukuDigital.core</semanticResources>
     <semanticResources>BukuFisik.core</semanticResources>
     <semanticResources>Main.core</semanticResources>
+    <semanticResources>Statistik.core</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_qVfswCDVEfCyTIMTUXcE5w">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_xPUugCDZEfCyTIMTUXcE5w" name="test" repPath="#_xOxU4CDZEfCyTIMTUXcE5w" changeId="1745478025446">
@@ -39,11 +40,11 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']"/>
         <target xmi:type="core:IFMLModel" href="DigitalSupport.core#/"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_DO5uICEJEfCyTIMTUXcE5w" name="BukuFisik" repPath="#_DO0OkCEJEfCyTIMTUXcE5w" changeId="1745559966318">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_DO5uICEJEfCyTIMTUXcE5w" name="BukuFisik" repPath="#_DO0OkCEJEfCyTIMTUXcE5w" changeId="1745584626940">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']"/>
         <target xmi:type="core:IFMLModel" href="BukuFisik.core#/"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="__VmY8CEWEfCyTIMTUXcE5w" name="BukuDigital" repPath="#__VdPACEWEfCyTIMTUXcE5w" changeId="1745559959021">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="__VmY8CEWEfCyTIMTUXcE5w" name="BukuDigital" repPath="#__VdPACEWEfCyTIMTUXcE5w" changeId="1745584666533">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']"/>
         <target xmi:type="core:IFMLModel" href="BukuDigital.core#/"/>
       </ownedRepresentationDescriptors>
@@ -27375,14 +27376,6 @@
         </computedStyleDescriptions>
       </data>
     </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_DQUDYCEJEfCyTIMTUXcE5w" name="/" width="8" height="8" resizeKind="NSEW">
-      <target xmi:type="core:Annotation" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.0/@annotations.0"/>
-      <semanticElements xmi:type="core:Annotation" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.0/@annotations.0"/>
-      <ownedStyle xmi:type="diagram:Note" uid="_DQUqcCEJEfCyTIMTUXcE5w" labelSize="9" showIcon="false" borderColor="209,209,209" labelPosition="node" color="255,245,181">
-        <description xmi:type="style:NoteDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']"/>
-    </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNode" uid="_DQV4kCEJEfCyTIMTUXcE5w" name="/daftarbuku/list" width="8" height="8" resizeKind="NSEW">
       <target xmi:type="core:Annotation" href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@annotations.0"/>
       <semanticElements xmi:type="core:Annotation" href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@annotations.0"/>
@@ -27527,6 +27520,14 @@
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:Note" uid="_CHQjECEpEfCyTIMTUXcE5w" labelSize="9" showIcon="false" borderColor="209,209,209" labelPosition="node" color="255,245,181">
+        <description xmi:type="style:NoteDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_DQUDYCEJEfCyTIMTUXcE5w" name="/" width="8" height="8" resizeKind="NSEW">
+      <target xmi:type="core:Annotation" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.0/@annotations.0"/>
+      <semanticElements xmi:type="core:Annotation" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.0/@annotations.0"/>
+      <ownedStyle xmi:type="diagram:Note" uid="_DQUqcCEJEfCyTIMTUXcE5w" labelSize="9" showIcon="false" borderColor="209,209,209" labelPosition="node" color="255,245,181">
         <description xmi:type="style:NoteDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']"/>
@@ -28020,14 +28021,6 @@
         </computedStyleDescriptions>
       </data>
     </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="__aUg4CEWEfCyTIMTUXcE5w" name="/" width="8" height="8" resizeKind="NSEW">
-      <target xmi:type="core:Annotation" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.0/@annotations.0"/>
-      <semanticElements xmi:type="core:Annotation" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.0/@annotations.0"/>
-      <ownedStyle xmi:type="diagram:Note" uid="__aYLQCEWEfCyTIMTUXcE5w" labelSize="9" showIcon="false" borderColor="209,209,209" labelPosition="node" color="255,245,181">
-        <description xmi:type="style:NoteDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']"/>
-    </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNode" uid="__aangCEWEfCyTIMTUXcE5w" name="/daftarbuku/list" width="8" height="8" resizeKind="NSEW">
       <target xmi:type="core:Annotation" href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@annotations.0"/>
       <semanticElements xmi:type="core:Annotation" href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@annotations.0"/>
@@ -28169,6 +28162,14 @@
       <target xmi:type="core:Annotation" href="BukuFisik.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewComponentParts.0/@annotations.0"/>
       <semanticElements xmi:type="core:Annotation" href="BukuFisik.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewComponentParts.0/@annotations.0"/>
       <ownedStyle xmi:type="diagram:Note" uid="_BhrJxSEpEfCyTIMTUXcE5w" labelSize="9" showIcon="false" borderColor="209,209,209" labelPosition="node" color="255,245,181">
+        <description xmi:type="style:NoteDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="__aUg4CEWEfCyTIMTUXcE5w" name="/" width="8" height="8" resizeKind="NSEW">
+      <target xmi:type="core:Annotation" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.0/@annotations.0"/>
+      <semanticElements xmi:type="core:Annotation" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.0/@annotations.0"/>
+      <ownedStyle xmi:type="diagram:Note" uid="__aYLQCEWEfCyTIMTUXcE5w" labelSize="9" showIcon="false" borderColor="209,209,209" labelPosition="node" color="255,245,181">
         <description xmi:type="style:NoteDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']"/>

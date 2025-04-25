@@ -9,7 +9,7 @@
         <viewElements xsi:type="dop-extension:ModifiedList" id="__IDioCEKEfCyTIMTUXcE5w" name="List Buku Fisik">
           <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_JY118CELEfCyTIMTUXcE5w" name="List Buku Fisik" uniformResourceIdentifier="/call/bukufisik/list">
             <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_RTuo4CELEfCyTIMTUXcE5w" name="Jumlah Buku">
-              <featureConcept href="main.core#//@domainModel/@domainElements.10"/>
+              <featureConcept href="BukuDigital.core#//@domainModel/@domainElements.10"/>
             </subViewComponentParts>
             <modifies href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0"/>
           </viewComponentParts>

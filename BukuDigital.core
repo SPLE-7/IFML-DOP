@@ -9,7 +9,7 @@
         <viewElements xsi:type="dop-extension:ModifiedList" id="_0b4A4CEXEfCyTIMTUXcE5w" name="List Buku Digital">
           <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_5XlF4CEXEfCyTIMTUXcE5w" name="List Buku Digital">
             <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_-ZtjACEXEfCyTIMTUXcE5w" name="Link Buku">
-              <featureConcept href="main.core#//@domainModel/@domainElements.13"/>
+              <featureConcept href="Statistik.core#//@domainModel/@domainElements.14"/>
             </subViewComponentParts>
             <modifies href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0"/>
           </viewComponentParts>
