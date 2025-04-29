@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="ASCII"?>
 <core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_XR9HgCHfEfCYKd9j4aQklA">
   <interactionFlowModel id="_2up3kCHiEfCYKd9j4aQklA">
-    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_S3gmYCHoEfCYKd9j4aQklA" name="Review Buku">
+    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_S3gmYCHoEfCYKd9j4aQklA" name="Review">
+      <inputPorts id="_sPETMCUXEfCt35NHVF_M3w" name="Input Port"/>
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_d1fW4CHoEfCYKd9j4aQklA" name="Lihat Review Page">
         <annotations text="/review/:id_buku/list"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.1/@viewElementEvents.3/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.1/@viewElementEvents.3/@outInteractionFlows.1"/>
         <viewElementEvents id="_FChoACHyEfCYKd9j4aQklA" name="Tambah Review">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_QXwa4CHyEfCYKd9j4aQklA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>
-        <viewElements xsi:type="ext:List" id="_qUWEQCHoEfCYKd9j4aQklA" name="List Review" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@outInteractionFlows.0">
+        <viewElements xsi:type="ext:List" id="_qUWEQCHoEfCYKd9j4aQklA" name="List Review" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0">
           <parameters id="_4xta0CHqEfCYKd9j4aQklA" name="id_buku"/>
           <viewComponentParts xsi:type="core:DataBinding" id="_LBIYoCHrEfCYKd9j4aQklA" name="Detail Review" uniformResourceIdentifier="">
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_Pm6Q8CHrEfCYKd9j4aQklA" name="Id Review" featureConcept="//@domainModel/@domainElements.38"/>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_jlzoUCHrEfCYKd9j4aQklA" name="Tanggal Review" featureConcept="//@domainModel/@domainElements.39"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_Pm6Q8CHrEfCYKd9j4aQklA" name="Id Review">
+              <featureConcept href="Renewal.core#//@domainModel/@domainElements.36"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_jlzoUCHrEfCYKd9j4aQklA" name="Tanggal Review">
+              <featureConcept href="Renewal.core#//@domainModel/@domainElements.37"/>
+            </subViewComponentParts>
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>
@@ -20,20 +27,22 @@
         <viewElements xsi:type="ext:Form" id="_9kD6ECHrEfCYKd9j4aQklA" name="Form Tambah Review">
           <parameters id="_6eU0ACHyEfCYKd9j4aQklA" name="id_buku"/>
           <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_e5Q8gCHyEfCYKd9j4aQklA" name="Simpan Review">
-            <annotations text="POST"/>
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_wYOtwCHyEfCYKd9j4aQklA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
           </viewElementEvents>
-          <viewComponentParts xsi:type="ext:SimpleField" id="_C-6ZMCHsEfCYKd9j4aQklA" name="ID Buku">
-            <annotations text="Required"/>
-            <subViewComponentParts xsi:type="ext:IFMLSlot" id="__kedMCHsEfCYKd9j4aQklA" name="Slot">
-              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          <viewComponentParts xsi:type="core:DataBinding" id="_Hdca8CUWEfCt35NHVF_M3w" name="Data Buku">
+            <subViewComponentParts xsi:type="ext:SelectionField" id="_OLjRsCUWEfCt35NHVF_M3w" name="Judul Buku">
+              <annotations text="Required"/>
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_tfBUoCUWEfCt35NHVF_M3w" name="Id Buku"/>
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_1YhAcCUWEfCt35NHVF_M3w" name="Judul Buku" direction="out"/>
             </subViewComponentParts>
-            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="core:IFMLAction" id="_j2RCACHyEfCYKd9j4aQklA" name="Simpan Review" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
-        <outInteractionFlows xsi:type="core:NavigationFlow" id="_2YKP4CHyEfCYKd9j4aQklA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0"/>
+        <annotations text="POST"/>
+        <actionEvents id="_bXerACUXEfCt35NHVF_M3w">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_2YKP4CHyEfCYKd9j4aQklA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0"/>
+        </actionEvents>
       </interactionFlowModelElement>
     </interactionFlowModelElements>
   </interactionFlowModel>

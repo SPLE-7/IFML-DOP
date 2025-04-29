@@ -16,6 +16,7 @@
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_LT_YMCEEEfCyTIMTUXcE5w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
           </viewElementEvents>
           <viewComponentParts xsi:type="core:DataBinding" id="_ubNdwCD9EfCyTIMTUXcE5w" name="List Buku">
+            <parameters id="_NjLJQCT5EfCt35NHVF_M3w" name="idBuku" direction="inout"/>
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_m_7igCD-EfCyTIMTUXcE5w" name="Id Buku">
               <featureConcept href="Main.core#//@domainModel/@domainElements.1"/>
             </subViewComponentParts>
@@ -48,10 +49,7 @@
           </viewElementEvents>
           <viewComponentParts xsi:type="ext:SimpleField" id="_2Wk1ACEBEfCyTIMTUXcE5w" name="Id Buku">
             <annotations text="Required"/>
-            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_gF06UCECEfCyTIMTUXcE5w" name="Id Buku">
-              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-            </subViewComponentParts>
-            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_gF06UCECEfCyTIMTUXcE5w" name="Id Buku"/>
           </viewComponentParts>
           <viewComponentParts xsi:type="ext:SimpleField" id="_8ekuACEBEfCyTIMTUXcE5w" name="Judul Buku">
             <annotations text="Required"/>

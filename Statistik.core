@@ -1,46 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
-<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_u0vvUCHSEfCVTpuhwdZlGw">
+<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_u0vvUCHSEfCVTpuhwdZlGw">
   <interactionFlowModel id="_ZL86kCHVEfCVTpuhwdZlGw">
-    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_ZMBMACHVEfCVTpuhwdZlGw" name="Module Definition">
+    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_ZMBMACHVEfCVTpuhwdZlGw" name="Statistik">
       <inputPorts id="_DWrE0CHfEfCVTpuhwdZlGw" name="Input Port">
         <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.1/@viewElementEvents.1/@outInteractionFlows.0"/>
       </inputPorts>
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_7oBB8CHcEfCVTpuhwdZlGw" name="list-table-statistik">
         <annotations text="/list-table-statistik"/>
-        <viewElements xsi:type="core:ViewContainer" id="_H5FncCHcEfCVTpuhwdZlGw" name="Wrapper tab">
-          <viewElements xsi:type="core:ViewContainer" id="_bYx-gCHVEfCVTpuhwdZlGw" name="List Genre">
-            <annotations text="/list-table-statistik?tab=ChartGenre"/>
-            <viewElements xsi:type="ext:List" id="_hSBp0CHVEfCVTpuhwdZlGw" name="Chart Genre">
-              <viewComponentParts xsi:type="core:DataBinding" id="_kCQVwCHVEfCVTpuhwdZlGw" name="Data Binding">
-                <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_nH8UUCHVEfCVTpuhwdZlGw" name="Jumlah Buku Statistik" featureConcept="//@domainModel/@domainElements.24">
-                  <annotations text="isSource"/>
-                </subViewComponentParts>
-                <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_tlBsgCHVEfCVTpuhwdZlGw" name="Genre" featureConcept="//@domainModel/@domainElements.7">
-                  <annotations text="isGroupedBy"/>
-                </subViewComponentParts>
-                <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_x-pYICHVEfCVTpuhwdZlGw" name="Nama Chart" featureConcept="//@domainModel/@domainElements.25">
-                  <annotations text="isGroupLabel"/>
-                </subViewComponentParts>
-              </viewComponentParts>
-            </viewElements>
-          </viewElements>
-          <viewElements xsi:type="core:ViewContainer" id="_-NmBQCHVEfCVTpuhwdZlGw" name="List Genre">
-            <annotations text="/list-table-statistik?tab=ChartPenulis"/>
-            <viewElements xsi:type="ext:List" id="_AjPC8CHWEfCVTpuhwdZlGw" name="Chart Penulis">
-              <viewComponentParts xsi:type="core:DataBinding" id="_TXcv4CHWEfCVTpuhwdZlGw" name="Data Binding">
-                <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_WIhwYCHWEfCVTpuhwdZlGw" name="Jumlah Buku Statistik" featureConcept="//@domainModel/@domainElements.24">
-                  <annotations text="isSource"/>
-                </subViewComponentParts>
-                <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_hmbXECHWEfCVTpuhwdZlGw" name="Penulis" featureConcept="//@domainModel/@domainElements.3">
-                  <annotations text="isGroupedBy"/>
-                </subViewComponentParts>
-                <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_sNRZ8CHWEfCVTpuhwdZlGw" name="Nama Chart" featureConcept="//@domainModel/@domainElements.25">
-                  <annotations text="isGroupLabel"/>
-                </subViewComponentParts>
-              </viewComponentParts>
-            </viewElements>
-          </viewElements>
-        </viewElements>
+        <viewElements xsi:type="core:ViewContainer" id="_H5FncCHcEfCVTpuhwdZlGw" name="Wrapper tab"/>
       </interactionFlowModelElement>
     </interactionFlowModelElements>
   </interactionFlowModel>

@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="ASCII"?>
 <core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_jAfDkCTyEfCF5alrS0jZdg">
   <interactionFlowModel id="_ziQMwCTyEfCF5alrS0jZdg">
-    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_ziWTYCTyEfCF5alrS0jZdg" name="Module Definition">
-      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_-rqKICTyEfCF5alrS0jZdg" name="ViewContainer">
-        <viewElements xsi:type="core:ViewComponent" id="_AyR4YCTzEfCF5alrS0jZdg" name="ViewComponent">
-          <viewComponentParts xsi:type="core:DataBinding" id="_CYbW0CTzEfCF5alrS0jZdg" name="Data Binding">
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_EU9U8CTzEfCF5alrS0jZdg" name="idBuku"/>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_FuHgQCTzEfCF5alrS0jZdg" name="judul"/>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_G22p8CTzEfCF5alrS0jZdg" name="penulis"/>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_H-wGICTzEfCF5alrS0jZdg" name="genre"/>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_JMN-0CTzEfCF5alrS0jZdg" name="jumlahHalaman"/>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_KY6bcCTzEfCF5alrS0jZdg" name="deskripsiBuku"/>
+    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_ziWTYCTyEfCF5alrS0jZdg" name="Recommendation">
+      <inputPorts id="_cNNxcCUdEfCt35NHVF_M3w" name="Input Port"/>
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_-rqKICTyEfCF5alrS0jZdg" name="Lihat Rekomendasi Page">
+        <annotations text="/rekomendasi/list"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.1/@viewElementEvents.4/@outInteractionFlows.0"/>
+        <viewElements xsi:type="core:ViewComponent" id="_AyR4YCTzEfCF5alrS0jZdg" name="List Rekomendasi">
+          <viewComponentParts xsi:type="core:DataBinding" id="_CYbW0CTzEfCF5alrS0jZdg" name="List Rekomendasi">
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_EU9U8CTzEfCF5alrS0jZdg" name="Id Buku">
+              <featureConcept href="Renewal.core#//@domainModel/@domainElements.1"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_FuHgQCTzEfCF5alrS0jZdg" name="Judul">
+              <featureConcept href="test.core#//@domainModel/@domainElements.2"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_G22p8CTzEfCF5alrS0jZdg" name="Penulis">
+              <featureConcept href="Renewal.core#//@domainModel/@domainElements.3"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_H-wGICTzEfCF5alrS0jZdg" name="Genre">
+              <featureConcept href="Renewal.core#//@domainModel/@domainElements.7"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_JMN-0CTzEfCF5alrS0jZdg" name="Jumlah Halaman">
+              <featureConcept href="Renewal.core#//@domainModel/@domainElements.5"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_KY6bcCTzEfCF5alrS0jZdg" name="Deskripsi Buku">
+              <featureConcept href="Renewal.core#//@domainModel/@domainElements.6"/>
+            </subViewComponentParts>
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>

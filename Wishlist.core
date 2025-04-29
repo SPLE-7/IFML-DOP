@@ -1,17 +1,34 @@
 <?xml version="1.0" encoding="ASCII"?>
 <core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_jsA3YCTzEfCF5alrS0jZdg">
   <interactionFlowModel id="_pQw5YCTzEfCF5alrS0jZdg">
-    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_pQyukCTzEfCF5alrS0jZdg" name="Module Definition">
-      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_rd6tcCTzEfCF5alrS0jZdg" name="ViewContainer">
-        <viewElements xsi:type="ext:List" id="_uFOt8CTzEfCF5alrS0jZdg" name="List">
-          <viewComponentParts xsi:type="core:DataBinding" id="_yARAICTzEfCF5alrS0jZdg" name="Data Binding">
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_z0dhoCTzEfCF5alrS0jZdg" name="idBuku"/>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_1oE0UCTzEfCF5alrS0jZdg" name="judulBuku"/>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_3aemECTzEfCF5alrS0jZdg" name="penulis"/>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_5ENkACTzEfCF5alrS0jZdg" name="penerbit"/>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_6iTSoCTzEfCF5alrS0jZdg" name="jumlahHalaman"/>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_71nUoCTzEfCF5alrS0jZdg" name="deskripsiBuku"/>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_9HaTsCTzEfCF5alrS0jZdg" name="genre"/>
+    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_pQyukCTzEfCF5alrS0jZdg" name="Wishlist">
+      <inputPorts id="_sGPNsCUfEfCt35NHVF_M3w" name="Input Port"/>
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_rd6tcCTzEfCF5alrS0jZdg" name="Lihat Wishlist Page">
+        <annotations text="/wishlist/list"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.1/@viewElementEvents.5/@outInteractionFlows.0"/>
+        <viewElements xsi:type="ext:List" id="_uFOt8CTzEfCF5alrS0jZdg" name="List Wishlist">
+          <viewComponentParts xsi:type="core:DataBinding" id="_yARAICTzEfCF5alrS0jZdg" name="List Wishlist">
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_z0dhoCTzEfCF5alrS0jZdg" name="idBuku">
+              <featureConcept href="Renewal.core#//@domainModel/@domainElements.1"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_1oE0UCTzEfCF5alrS0jZdg" name="Judul Buku">
+              <featureConcept href="test.core#//@domainModel/@domainElements.2"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_3aemECTzEfCF5alrS0jZdg" name="Penulis">
+              <featureConcept href="Renewal.core#//@domainModel/@domainElements.3"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_5ENkACTzEfCF5alrS0jZdg" name="Penerbit">
+              <featureConcept href="Renewal.core#//@domainModel/@domainElements.3"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_6iTSoCTzEfCF5alrS0jZdg" name="Jumlah Halaman">
+              <featureConcept href="Renewal.core#//@domainModel/@domainElements.5"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_71nUoCTzEfCF5alrS0jZdg" name="Deskripsi Buku">
+              <featureConcept href="Renewal.core#//@domainModel/@domainElements.6"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_9HaTsCTzEfCF5alrS0jZdg" name="Genre">
+              <featureConcept href="Renewal.core#//@domainModel/@domainElements.7"/>
+            </subViewComponentParts>
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>

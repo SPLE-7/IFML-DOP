@@ -21,6 +21,41 @@
           <targetInteractionFlowElement xsi:type="core:PortDefinition" href="Statistik.core#//@interactionFlowModel/@interactionFlowModelElements.0/@inputPorts.0"/>
         </outInteractionFlows>
       </viewElementEvents>
+      <viewElementEvents id="_6WPVICUKEfCt35NHVF_M3w" name="Peminjaman Buku">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_TIu-YCULEfCt35NHVF_M3w">
+          <targetInteractionFlowElement xsi:type="core:ViewContainer" href="Peminjaman.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_OeumACUOEfCt35NHVF_M3w">
+          <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="Renewal.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
+      </viewElementEvents>
+      <viewElementEvents id="_0YmRACUVEfCt35NHVF_M3w" name="Review">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_4MwfICUVEfCt35NHVF_M3w">
+          <targetInteractionFlowElement xsi:type="core:ViewContainer" href="Review.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_K1zzACUYEfCt35NHVF_M3w">
+          <targetInteractionFlowElement xsi:type="core:ViewContainer" href="Review.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_I55qgCUZEfCt35NHVF_M3w">
+          <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="ReviewBintang.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_fGz8ICUaEfCt35NHVF_M3w">
+          <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="ReviewKomentar.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
+      </viewElementEvents>
+      <viewElementEvents id="_d1LNwCUdEfCt35NHVF_M3w" name="Rekomendasi Buku">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_hBKBkCUdEfCt35NHVF_M3w">
+          <targetInteractionFlowElement xsi:type="core:ViewContainer" href="Recommendation.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
+      </viewElementEvents>
+      <viewElementEvents id="_0w8UACUfEfCt35NHVF_M3w" name="Wishlist">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_4dF1oCUfEfCt35NHVF_M3w">
+          <targetInteractionFlowElement xsi:type="core:ViewContainer" href="Wishlist.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_F8xmgCUjEfCt35NHVF_M3w">
+          <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="WishlistWithNote.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
+      </viewElementEvents>
     </interactionFlowModelElements>
   </interactionFlowModel>
   <domainModel id="_tuy5ISD8EfCyTIMTUXcE5w">
