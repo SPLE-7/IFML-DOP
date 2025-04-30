@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="ASCII"?>
-<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:dop-extension="http://amanah.cs.ui.ac.id/ifml/dop" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_P0W3ACUgEfCt35NHVF_M3w">
+<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:dop-extension="http://amanah.cs.ui.ac.id/ifml/dop" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_P0W3ACUgEfCt35NHVF_M3w">
   <interactionFlowModel id="_TEt0gCUgEfCt35NHVF_M3w">
     <interactionFlowModelElements xsi:type="dop-extension:DeltaModuleDefinition" id="_TEw30CUgEfCt35NHVF_M3w" name="WishlistWithNote">
       <inputPorts id="_DJ6dUCUjEfCt35NHVF_M3w" name="Input Port"/>
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_NAcTACUiEfCt35NHVF_M3w" name="Lihat Wishlist With Note Page">
         <annotations text="/wishlist/note/list"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.1/@viewElementEvents.5/@outInteractionFlows.1"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
+        <viewElementEvents id="_jMbe4CXkEfCtKsRWf9cAMQ" name="Tambah Peminjaman">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_qen6ICXkEfCtKsRWf9cAMQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
+        </viewElementEvents>
         <viewElements xsi:type="dop-extension:ModifiedList" id="_eOvyECUiEfCt35NHVF_M3w" name="List Wishlist With Note">
           <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_oy7igCUiEfCt35NHVF_M3w" name="List Wishlist With Note">
             <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_xNZ0cCUiEfCt35NHVF_M3w" name="notes" featureConcept="//@domainModel/@domainElements.67"/>
@@ -14,6 +18,42 @@
           <modifies href="Wishlist.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0"/>
         </viewElements>
         <modifies href="Wishlist.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_FYVkACXkEfCtKsRWf9cAMQ" name="ViewContainer" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <viewElements xsi:type="ext:Form" id="_H5B_ICXkEfCtKsRWf9cAMQ" name="Form">
+          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_ckwnUCXkEfCtKsRWf9cAMQ" name="OnSubmit Event">
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_rjaX8CXkEfCtKsRWf9cAMQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
+          </viewElementEvents>
+          <viewComponentParts xsi:type="core:DataBinding" id="_J7HysCXkEfCtKsRWf9cAMQ" name="Data Binding">
+            <subViewComponentParts xsi:type="ext:SelectionField" id="_LpbHkCXkEfCtKsRWf9cAMQ" name="Selection Field">
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_OXQm0CXkEfCtKsRWf9cAMQ" name="Id Buku"/>
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_Rsv78CXkEfCtKsRWf9cAMQ" name="Judul Buku"/>
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_T4c-gCXkEfCtKsRWf9cAMQ" name="Notes"/>
+            </subViewComponentParts>
+          </viewComponentParts>
+          <viewComponentParts xsi:type="ext:SimpleField" id="_XMNOQCXkEfCtKsRWf9cAMQ" name="Simple Field">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_YSgvACXkEfCtKsRWf9cAMQ" name="Id Buku"/>
+          </viewComponentParts>
+        </viewElements>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_fvy_8CXkEfCtKsRWf9cAMQ" name="Simpan Wishlist" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <actionEvents id="_t9AskCXkEfCtKsRWf9cAMQ">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_u2ocMCXkEfCtKsRWf9cAMQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </actionEvents>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_q7gN8CXlEfCtKsRWf9cAMQ" name="Modified ViewContainer">
+        <viewElements xsi:type="ext:Form" id="_tKSZsCXlEfCtKsRWf9cAMQ" name="Form">
+          <viewComponentParts xsi:type="core:DataBinding" id="_vLkU8CXlEfCtKsRWf9cAMQ" name="Data Binding">
+            <subViewComponentParts xsi:type="ext:SelectionField" id="_yGTnwCXlEfCtKsRWf9cAMQ" name="Selection Field">
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_0oa_MCXlEfCtKsRWf9cAMQ" name="Id Buku"/>
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_2GKIgCXlEfCtKsRWf9cAMQ" name="Judul Buku"/>
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_3XhCsCXlEfCtKsRWf9cAMQ" name="Notes"/>
+            </subViewComponentParts>
+          </viewComponentParts>
+          <viewComponentParts xsi:type="ext:SimpleField" id="_5aeY8CXlEfCtKsRWf9cAMQ" name="Simple Field">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_7IyU4CXlEfCtKsRWf9cAMQ" name="Id Akun"/>
+          </viewComponentParts>
+        </viewElements>
       </interactionFlowModelElement>
       <uses href="Wishlist.core#//@interactionFlowModel/@interactionFlowModelElements.0"/>
     </interactionFlowModelElements>

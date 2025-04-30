@@ -6,6 +6,10 @@
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_rd6tcCTzEfCF5alrS0jZdg" name="Lihat Wishlist Page">
         <annotations text="/wishlist/list"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.1/@viewElementEvents.5/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
+        <viewElementEvents id="_6DMQsCXjEfCtKsRWf9cAMQ" name="Tambah Wishlist">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_8LRXgCXjEfCtKsRWf9cAMQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
+        </viewElementEvents>
         <viewElements xsi:type="ext:List" id="_uFOt8CTzEfCF5alrS0jZdg" name="List Wishlist">
           <viewComponentParts xsi:type="core:DataBinding" id="_yARAICTzEfCF5alrS0jZdg" name="List Wishlist">
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_z0dhoCTzEfCF5alrS0jZdg" name="idBuku">
@@ -31,6 +35,27 @@
             </subViewComponentParts>
           </viewComponentParts>
         </viewElements>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_8xHTsCXcEfCtKsRWf9cAMQ" name="Tambah Wishlist Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <viewElements xsi:type="ext:Form" id="_0n5NACXgEfCtKsRWf9cAMQ" name="Tambah Wishlist">
+          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_qGLP0CXiEfCtKsRWf9cAMQ" name="Simpan Wishlist">
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_3bXS0CXjEfCtKsRWf9cAMQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
+          </viewElementEvents>
+          <viewComponentParts xsi:type="core:DataBinding" id="_EWP8QCXhEfCtKsRWf9cAMQ" name="Data Binding">
+            <subViewComponentParts xsi:type="ext:SelectionField" id="_G8u2UCXhEfCtKsRWf9cAMQ" name="Selection Field">
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_Yg7s4CXhEfCtKsRWf9cAMQ" name="Id Buku"/>
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_Ar4G0CXiEfCtKsRWf9cAMQ" name="Judul Buku"/>
+            </subViewComponentParts>
+          </viewComponentParts>
+          <viewComponentParts xsi:type="ext:SimpleField" id="_FWy90CXiEfCtKsRWf9cAMQ" name="Id Akun">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_KgNHoCXiEfCtKsRWf9cAMQ" name="Id Akun"/>
+          </viewComponentParts>
+        </viewElements>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_v91xUCXjEfCtKsRWf9cAMQ" name="Simpan Peminjaman" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <actionEvents id="_zK0qsCXjEfCtKsRWf9cAMQ">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_0zmmYCXjEfCtKsRWf9cAMQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </actionEvents>
       </interactionFlowModelElement>
     </interactionFlowModelElements>
   </interactionFlowModel>
