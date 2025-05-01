@@ -13,7 +13,9 @@
         </viewElementEvents>
         <viewElements xsi:type="ext:List" id="_pTNpMCD9EfCyTIMTUXcE5w" name="List Buku">
           <viewElementEvents id="_kZyfUCEBEfCyTIMTUXcE5w" name="Hapus">
-            <outInteractionFlows xsi:type="core:NavigationFlow" id="_LT_YMCEEEfCyTIMTUXcE5w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_5-koQCZYEfC5JO5UQP5gZQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4">
+              <parameterBindingGroup id="_ORPQMCZZEfC5JO5UQP5gZQ"/>
+            </outInteractionFlows>
           </viewElementEvents>
           <viewComponentParts xsi:type="core:DataBinding" id="_ubNdwCD9EfCyTIMTUXcE5w" name="List Buku">
             <parameters id="_NjLJQCT5EfCt35NHVF_M3w" name="idBuku" direction="inout"/>
@@ -95,7 +97,7 @@
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_Bx4IwCEEEfCyTIMTUXcE5w" name="Hapus Buku" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_Bx4IwCEEEfCyTIMTUXcE5w" name="Hapus Buku" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@viewElementEvents.0/@outInteractionFlows.0">
         <annotations text="DELETE"/>
         <actionEvents id="_Od5IYCEEEfCyTIMTUXcE5w">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_eGl7kCEEEfCyTIMTUXcE5w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
@@ -106,6 +108,13 @@
         <actionEvents id="_kpGmUCEEEfCyTIMTUXcE5w">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_mQh3ICEEEfCyTIMTUXcE5w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </actionEvents>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="ext:IFMLWindow" id="_ylZbQCZYEfC5JO5UQP5gZQ" name="Confirm Delete Book" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <viewElementEvents id="_DAKkkCZZEfC5JO5UQP5gZQ" name="Confirm Delete">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_G1c0ECZZEfC5JO5UQP5gZQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2">
+            <parameterBindingGroup id="_aZusACZZEfC5JO5UQP5gZQ"/>
+          </outInteractionFlows>
+        </viewElementEvents>
       </interactionFlowModelElement>
     </interactionFlowModelElements>
   </interactionFlowModel>
