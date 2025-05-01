@@ -14,7 +14,9 @@
         <viewElements xsi:type="ext:List" id="_pTNpMCD9EfCyTIMTUXcE5w" name="List Buku">
           <viewElementEvents id="_kZyfUCEBEfCyTIMTUXcE5w" name="Hapus">
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_5-koQCZYEfC5JO5UQP5gZQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4">
-              <parameterBindingGroup id="_ORPQMCZZEfC5JO5UQP5gZQ"/>
+              <parameterBindingGroup id="_ORPQMCZZEfC5JO5UQP5gZQ">
+                <parameterBindings id="__l2nkCZdEfC5JO5UQP5gZQ" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
+              </parameterBindingGroup>
             </outInteractionFlows>
           </viewElementEvents>
           <viewComponentParts xsi:type="core:DataBinding" id="_ubNdwCD9EfCyTIMTUXcE5w" name="List Buku">
@@ -112,7 +114,9 @@
       <interactionFlowModelElement xsi:type="ext:IFMLWindow" id="_ylZbQCZYEfC5JO5UQP5gZQ" name="Confirm Delete Book" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
         <viewElementEvents id="_DAKkkCZZEfC5JO5UQP5gZQ" name="Confirm Delete">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_G1c0ECZZEfC5JO5UQP5gZQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2">
-            <parameterBindingGroup id="_aZusACZZEfC5JO5UQP5gZQ"/>
+            <parameterBindingGroup id="_aZusACZZEfC5JO5UQP5gZQ">
+              <parameterBindings id="_TBpR4CZeEfC5JO5UQP5gZQ" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
+            </parameterBindingGroup>
           </outInteractionFlows>
         </viewElementEvents>
       </interactionFlowModelElement>
