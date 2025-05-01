@@ -3,10 +3,8 @@
   <interactionFlowModel id="_TEt0gCUgEfCt35NHVF_M3w">
     <interactionFlowModelElements xsi:type="dop-extension:DeltaModuleDefinition" id="_TEw30CUgEfCt35NHVF_M3w" name="WishlistWithNote">
       <inputPorts id="_DJ6dUCUjEfCt35NHVF_M3w" name="Input Port"/>
-      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_NAcTACUiEfCt35NHVF_M3w" name="Lihat Wishlist With Note Page">
+      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_NAcTACUiEfCt35NHVF_M3w" name="Lihat Wishlist With Note Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0">
         <annotations text="/wishlist/note/list"/>
-        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.1/@viewElementEvents.5/@outInteractionFlows.1"/>
-        <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
         <viewElementEvents id="_jMbe4CXkEfCtKsRWf9cAMQ" name="Tambah Peminjaman">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_qen6ICXkEfCtKsRWf9cAMQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>

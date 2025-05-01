@@ -1,59 +1,48 @@
 <?xml version="1.0" encoding="ASCII"?>
-<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:dop-extension="http://amanah.cs.ui.ac.id/ifml/dop" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_tuy5ICD8EfCyTIMTUXcE5w">
+<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_tuy5ICD8EfCyTIMTUXcE5w">
   <interactionFlowModel id="_QoNvECD9EfCyTIMTUXcE5w">
     <interactionFlowModelElements xsi:type="core:ViewContainer" id="_QoOWICD9EfCyTIMTUXcE5w" name="Home" isXOR="true">
       <annotations text="/"/>
     </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_RJwV4CD9EfCyTIMTUXcE5w" name="Menu">
-      <viewElementEvents id="_SraV4CD9EfCyTIMTUXcE5w" name="Daftar Buku">
-        <outInteractionFlows xsi:type="core:NavigationFlow" id="_3ff7MCEdEfCyTIMTUXcE5w">
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_fDVOYCabEfCdl9B06udFTw" name="DaftarBuku">
+      <viewElementEvents id="_kbm6oCabEfCdl9B06udFTw" name="ViewElement Event">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_nC0NcCabEfCdl9B06udFTw">
           <targetInteractionFlowElement xsi:type="core:ViewContainer" href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </outInteractionFlows>
-        <outInteractionFlows xsi:type="core:NavigationFlow" id="_nLiHkCGYEfCdUM_iKtJ5JQ">
-          <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="BukuDigital.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
-        </outInteractionFlows>
-        <outInteractionFlows xsi:type="core:NavigationFlow" id="_rjrzkCGYEfCdUM_iKtJ5JQ">
-          <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="BukuFisik.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
-        </outInteractionFlows>
       </viewElementEvents>
-      <viewElementEvents id="_gc6_ECHbEfCVTpuhwdZlGw" name="Statistik">
-        <outInteractionFlows xsi:type="core:NavigationFlow" id="_k8jMECHbEfCVTpuhwdZlGw">
-          <targetInteractionFlowElement xsi:type="core:PortDefinition" href="Statistik.core#//@interactionFlowModel/@interactionFlowModelElements.0/@inputPorts.0"/>
-        </outInteractionFlows>
-      </viewElementEvents>
-      <viewElementEvents id="_6WPVICUKEfCt35NHVF_M3w" name="Peminjaman Buku">
-        <outInteractionFlows xsi:type="core:NavigationFlow" id="_TIu-YCULEfCt35NHVF_M3w">
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_gfmQsCaeEfCdl9B06udFTw" name="Peminjaman">
+      <viewElementEvents id="_ito1kCaeEfCdl9B06udFTw" name="ViewElement Event">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_lQ3nUCaeEfCdl9B06udFTw">
           <targetInteractionFlowElement xsi:type="core:ViewContainer" href="Peminjaman.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </outInteractionFlows>
-        <outInteractionFlows xsi:type="core:NavigationFlow" id="_OeumACUOEfCt35NHVF_M3w">
-          <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="Renewal.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
-        </outInteractionFlows>
       </viewElementEvents>
-      <viewElementEvents id="_0YmRACUVEfCt35NHVF_M3w" name="Review">
-        <outInteractionFlows xsi:type="core:NavigationFlow" id="_4MwfICUVEfCt35NHVF_M3w">
-          <targetInteractionFlowElement xsi:type="core:ViewContainer" href="Review.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
-        </outInteractionFlows>
-        <outInteractionFlows xsi:type="core:NavigationFlow" id="_K1zzACUYEfCt35NHVF_M3w">
-          <targetInteractionFlowElement xsi:type="core:ViewContainer" href="Review.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
-        </outInteractionFlows>
-        <outInteractionFlows xsi:type="core:NavigationFlow" id="_I55qgCUZEfCt35NHVF_M3w">
-          <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="ReviewBintang.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
-        </outInteractionFlows>
-        <outInteractionFlows xsi:type="core:NavigationFlow" id="_fGz8ICUaEfCt35NHVF_M3w">
-          <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="ReviewKomentar.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
-        </outInteractionFlows>
-      </viewElementEvents>
-      <viewElementEvents id="_d1LNwCUdEfCt35NHVF_M3w" name="Rekomendasi Buku">
-        <outInteractionFlows xsi:type="core:NavigationFlow" id="_hBKBkCUdEfCt35NHVF_M3w">
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_GwqX4CafEfCdl9B06udFTw" name="Recommendation">
+      <viewElementEvents id="_KwzzkCafEfCdl9B06udFTw" name="ViewElement Event">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_McrfgCafEfCdl9B06udFTw">
           <targetInteractionFlowElement xsi:type="core:ViewContainer" href="Recommendation.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </outInteractionFlows>
       </viewElementEvents>
-      <viewElementEvents id="_0w8UACUfEfCt35NHVF_M3w" name="Wishlist">
-        <outInteractionFlows xsi:type="core:NavigationFlow" id="_4dF1oCUfEfCt35NHVF_M3w">
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_RsvD4CafEfCdl9B06udFTw" name="Statistik">
+      <viewElementEvents id="_WB2C8CafEfCdl9B06udFTw" name="ViewElement Event">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_XO99YCafEfCdl9B06udFTw">
+          <targetInteractionFlowElement xsi:type="core:ViewContainer" href="Statistik.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
+      </viewElementEvents>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_kqxbMCafEfCdl9B06udFTw" name="Wishlist">
+      <viewElementEvents id="_oMRMACafEfCdl9B06udFTw" name="ViewElement Event">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_s8c9gCafEfCdl9B06udFTw">
           <targetInteractionFlowElement xsi:type="core:ViewContainer" href="Wishlist.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </outInteractionFlows>
-        <outInteractionFlows xsi:type="core:NavigationFlow" id="_F8xmgCUjEfCt35NHVF_M3w">
-          <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="WishlistWithNote.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+      </viewElementEvents>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_KEyBwCakEfCdl9B06udFTw" name="Review">
+      <viewElementEvents id="_MVfgICakEfCdl9B06udFTw" name="ViewElement Event">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_NjMCUCakEfCdl9B06udFTw">
+          <targetInteractionFlowElement xsi:type="core:ViewContainer" href="Review.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </outInteractionFlows>
       </viewElementEvents>
     </interactionFlowModelElements>

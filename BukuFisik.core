@@ -5,7 +5,6 @@
       <inputPorts id="_3m8mkCGXEfCdUM_iKtJ5JQ" name="Input Port"/>
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_nAshECEKEfCyTIMTUXcE5w" name="Lihat Buku Fisik Page">
         <annotations text="/daftarbuku/fisik/list"/>
-        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.1/@viewElementEvents.0/@outInteractionFlows.2"/>
         <viewElements xsi:type="dop-extension:ModifiedList" id="__IDioCEKEfCyTIMTUXcE5w" name="List Buku Fisik">
           <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_JY118CELEfCyTIMTUXcE5w" name="List Buku Fisik" uniformResourceIdentifier="/call/bukufisik/list">
             <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_RTuo4CELEfCyTIMTUXcE5w" name="Jumlah Buku">

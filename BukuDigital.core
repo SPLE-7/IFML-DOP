@@ -5,7 +5,6 @@
       <inputPorts id="_iVHLMCGYEfCdUM_iKtJ5JQ" name="Input Port"/>
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_uZm8cCEXEfCyTIMTUXcE5w" name="Lihat Buku Digital Page">
         <annotations text="/daftarbuku/digital/list"/>
-        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.1/@viewElementEvents.0/@outInteractionFlows.1"/>
         <viewElements xsi:type="dop-extension:ModifiedList" id="_0b4A4CEXEfCyTIMTUXcE5w" name="List Buku Digital">
           <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_5XlF4CEXEfCyTIMTUXcE5w" name="List Buku Digital">
             <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_-ZtjACEXEfCyTIMTUXcE5w" name="Link Buku">

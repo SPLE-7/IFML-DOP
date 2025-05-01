@@ -5,13 +5,13 @@
       <inputPorts id="_sGPNsCUfEfCt35NHVF_M3w" name="Input Port"/>
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_rd6tcCTzEfCF5alrS0jZdg" name="Lihat Wishlist Page">
         <annotations text="/wishlist/list"/>
-        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.1/@viewElementEvents.5/@outInteractionFlows.0"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.5/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElementEvents id="_6DMQsCXjEfCtKsRWf9cAMQ" name="Tambah Wishlist">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_8LRXgCXjEfCtKsRWf9cAMQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>
         <viewElements xsi:type="ext:List" id="_uFOt8CTzEfCF5alrS0jZdg" name="List Wishlist">
-          <viewComponentParts xsi:type="core:DataBinding" id="_yARAICTzEfCF5alrS0jZdg" name="List Wishlist">
+          <viewComponentParts xsi:type="core:DataBinding" id="_yARAICTzEfCF5alrS0jZdg" name="Data Binding Wishlist" uniformResourceIdentifier="call/wishlist/list">
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_z0dhoCTzEfCF5alrS0jZdg" name="idBuku">
               <featureConcept href="Renewal.core#//@domainModel/@domainElements.1"/>
             </subViewComponentParts>

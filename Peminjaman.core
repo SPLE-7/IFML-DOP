@@ -6,12 +6,12 @@
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_HQhGwCSpEfCF5alrS0jZdg" name="Lihat Peminjaman Page">
         <annotations text="/peminjaman/list"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
-        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.1/@viewElementEvents.2/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.2/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElementEvents id="_A1vIICULEfCt35NHVF_M3w" name="Tambah Peminjaman">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_CcmYQCULEfCt35NHVF_M3w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>
         <viewElements xsi:type="ext:List" id="_LgEQYCSpEfCF5alrS0jZdg" name="List Peminjaman">
-          <viewComponentParts xsi:type="core:DataBinding" id="_rG7wcCSpEfCF5alrS0jZdg" name="List Peminjaman">
+          <viewComponentParts xsi:type="core:DataBinding" id="_rG7wcCSpEfCF5alrS0jZdg" name="Data Binding Peminjaman" uniformResourceIdentifier="call/peminjaman/list">
             <parameters id="_arXAICT8EfCt35NHVF_M3w" name="idPeminjamanBuku" direction="inout"/>
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_sm6VcCSpEfCF5alrS0jZdg" name="Id Peminjaman Buku">
               <featureConcept href="Wishlist.core#//@domainModel/@domainElements.21"/>
