@@ -48,6 +48,7 @@
         </viewElements>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_8xHTsCXcEfCtKsRWf9cAMQ" name="Tambah Wishlist Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="/wishlist/tambah"/>
         <viewElements xsi:type="ext:Form" id="_0n5NACXgEfCtKsRWf9cAMQ" name="Tambah Wishlist">
           <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_qGLP0CXiEfCtKsRWf9cAMQ" name="Simpan Wishlist">
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_3bXS0CXjEfCtKsRWf9cAMQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
