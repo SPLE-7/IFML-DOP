@@ -53,7 +53,7 @@
           <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_qGLP0CXiEfCtKsRWf9cAMQ" name="Simpan Wishlist">
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_3bXS0CXjEfCtKsRWf9cAMQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
           </viewElementEvents>
-          <viewComponentParts xsi:type="core:DataBinding" id="_EWP8QCXhEfCtKsRWf9cAMQ" name="Data Binding" uniformResourceIdentifier="call/wishlist">
+          <viewComponentParts xsi:type="core:DataBinding" id="_EWP8QCXhEfCtKsRWf9cAMQ" name="Data Binding" uniformResourceIdentifier="call/buku/list">
             <subViewComponentParts xsi:type="ext:SelectionField" id="_G8u2UCXhEfCtKsRWf9cAMQ" name="Selection Field">
               <subViewComponentParts xsi:type="ext:IFMLSlot" id="_Yg7s4CXhEfCtKsRWf9cAMQ" name="Id Buku"/>
               <subViewComponentParts xsi:type="ext:IFMLSlot" id="_Ar4G0CXiEfCtKsRWf9cAMQ" name="Judul Buku"/>
@@ -64,12 +64,14 @@
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_v91xUCXjEfCtKsRWf9cAMQ" name="Simpan Peminjaman" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_v91xUCXjEfCtKsRWf9cAMQ" name="Simpan Wishlist" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="POST"/>
         <actionEvents id="_zK0qsCXjEfCtKsRWf9cAMQ">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_0zmmYCXjEfCtKsRWf9cAMQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </actionEvents>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="core:IFMLAction" id="_8YItUCcsEfCi44zdTcSjuA" name="Hapus Wishlist" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="POST"/>
         <actionEvents id="_OzP9wCctEfCi44zdTcSjuA">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_PwwH0CctEfCi44zdTcSjuA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </actionEvents>
