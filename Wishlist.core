@@ -7,10 +7,21 @@
         <annotations text="/wishlist/list"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.5/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@actionEvents.0/@outInteractionFlows.0"/>
         <viewElementEvents id="_6DMQsCXjEfCtKsRWf9cAMQ" name="Tambah Wishlist">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_8LRXgCXjEfCtKsRWf9cAMQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>
         <viewElements xsi:type="ext:List" id="_uFOt8CTzEfCF5alrS0jZdg" name="List Wishlist">
+          <viewElementEvents id="_En3u4CctEfCi44zdTcSjuA" name="Hapus">
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_IA0nsCctEfCi44zdTcSjuA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4">
+              <parameterBindingGroup id="_RcCk8CctEfCi44zdTcSjuA">
+                <parameterBindings id="_T4mG8CctEfCi44zdTcSjuA">
+                  <sourceParameter href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
+                  <targetParameter href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
+                </parameterBindings>
+              </parameterBindingGroup>
+            </outInteractionFlows>
+          </viewElementEvents>
           <viewComponentParts xsi:type="core:DataBinding" id="_yARAICTzEfCF5alrS0jZdg" name="Data Binding Wishlist" uniformResourceIdentifier="call/wishlist/list">
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_z0dhoCTzEfCF5alrS0jZdg" name="idBuku">
               <featureConcept href="Renewal.core#//@domainModel/@domainElements.1"/>
@@ -56,6 +67,23 @@
         <actionEvents id="_zK0qsCXjEfCtKsRWf9cAMQ">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_0zmmYCXjEfCtKsRWf9cAMQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </actionEvents>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_8YItUCcsEfCi44zdTcSjuA" name="Hapus Wishlist" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@viewElementEvents.0/@outInteractionFlows.0">
+        <actionEvents id="_OzP9wCctEfCi44zdTcSjuA">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_PwwH0CctEfCi44zdTcSjuA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </actionEvents>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="ext:IFMLWindow" id="__3g-QCcsEfCi44zdTcSjuA" name="Confirm Delete Wishlist" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <viewElementEvents id="_Jsk-4CctEfCi44zdTcSjuA" name="Confirm Delete">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_KIKHoCctEfCi44zdTcSjuA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3">
+            <parameterBindingGroup id="_uMYj0CctEfCi44zdTcSjuA">
+              <parameterBindings id="_wpjJ0CctEfCi44zdTcSjuA">
+                <sourceParameter href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
+                <targetParameter href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
+              </parameterBindings>
+            </parameterBindingGroup>
+          </outInteractionFlows>
+        </viewElementEvents>
       </interactionFlowModelElement>
     </interactionFlowModelElements>
   </interactionFlowModel>
