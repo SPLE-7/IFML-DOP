@@ -2,9 +2,11 @@
 <core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:dop-extension="http://amanah.cs.ui.ac.id/ifml/dop" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_qGacQCUlEfCt35NHVF_M3w">
   <interactionFlowModel id="_G4f1oCUoEfCt35NHVF_M3w">
     <interactionFlowModelElements xsi:type="dop-extension:DeltaModuleDefinition" id="_G4i48CUoEfCt35NHVF_M3w" name="GenreStatistik">
+      <annotations text="AddedFeature"/>
       <inputPorts id="_mNRqsCUpEfCt35NHVF_M3w" name="Input Port"/>
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_L5ax0CUoEfCt35NHVF_M3w" name="List Table Genre Statistik">
         <viewElements xsi:type="dop-extension:ModifiedViewContainer" id="_X94pQCUoEfCt35NHVF_M3w" name="List Table Genre Statistik">
+          <annotations text="Tab"/>
           <viewElements xsi:type="dop-extension:AddedViewContainer" id="_nPGwkCUoEfCt35NHVF_M3w" name="List Genre">
             <annotations text="list-table-statistik?tab=ChartGenre"/>
             <viewElements xsi:type="dop-extension:AddedList" id="_rx0t0CUoEfCt35NHVF_M3w" name="Chart Genre">
