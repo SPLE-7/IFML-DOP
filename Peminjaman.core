@@ -11,7 +11,7 @@
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_CcmYQCULEfCt35NHVF_M3w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>
         <viewElements xsi:type="ext:List" id="_LgEQYCSpEfCF5alrS0jZdg" name="List Peminjaman">
-          <viewComponentParts xsi:type="core:DataBinding" id="_rG7wcCSpEfCF5alrS0jZdg" name="Data Binding Peminjaman" uniformResourceIdentifier="call/peminjaman/list">
+          <viewComponentParts xsi:type="core:DataBinding" id="_rG7wcCSpEfCF5alrS0jZdg" name="Data Binding Peminjaman" uniformResourceIdentifier="call/peminjamanbuku/list">
             <parameters id="_arXAICT8EfCt35NHVF_M3w" name="idPeminjamanBuku" direction="inout"/>
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_sm6VcCSpEfCF5alrS0jZdg" name="Id Peminjaman Buku">
               <featureConcept href="Wishlist.core#//@domainModel/@domainElements.21"/>
@@ -35,7 +35,7 @@
             <annotations text="Required"/>
             <subViewComponentParts xsi:type="ext:IFMLSlot" id="_OIXYoCUHEfCt35NHVF_M3w" name="Id Akun"/>
           </viewComponentParts>
-          <viewComponentParts xsi:type="core:DataBinding" id="_UdVDsCUUEfCt35NHVF_M3w" name="Data Buku" uniformResourceIdentifier="">
+          <viewComponentParts xsi:type="core:DataBinding" id="_UdVDsCUUEfCt35NHVF_M3w" name="Data Buku" uniformResourceIdentifier="call/peminjamanbuku">
             <subViewComponentParts xsi:type="ext:SelectionField" id="_asIvUCUUEfCt35NHVF_M3w" name="Selection Field">
               <annotations text="Required"/>
               <subViewComponentParts xsi:type="ext:IFMLSlot" id="_1KA8UCUUEfCt35NHVF_M3w" name="Id Buku"/>

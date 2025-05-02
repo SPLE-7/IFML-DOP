@@ -53,7 +53,7 @@
           <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_qGLP0CXiEfCtKsRWf9cAMQ" name="Simpan Wishlist">
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_3bXS0CXjEfCtKsRWf9cAMQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
           </viewElementEvents>
-          <viewComponentParts xsi:type="core:DataBinding" id="_EWP8QCXhEfCtKsRWf9cAMQ" name="Data Binding">
+          <viewComponentParts xsi:type="core:DataBinding" id="_EWP8QCXhEfCtKsRWf9cAMQ" name="Data Binding" uniformResourceIdentifier="call/wishlist">
             <subViewComponentParts xsi:type="ext:SelectionField" id="_G8u2UCXhEfCtKsRWf9cAMQ" name="Selection Field">
               <subViewComponentParts xsi:type="ext:IFMLSlot" id="_Yg7s4CXhEfCtKsRWf9cAMQ" name="Id Buku"/>
               <subViewComponentParts xsi:type="ext:IFMLSlot" id="_Ar4G0CXiEfCtKsRWf9cAMQ" name="Judul Buku"/>
