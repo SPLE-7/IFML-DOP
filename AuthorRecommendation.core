@@ -5,10 +5,18 @@
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_P15MICahEfCdl9B06udFTw" name="ViewContainer">
         <viewElements xsi:type="core:ViewComponent" id="_REoQICahEfCdl9B06udFTw" name="ViewComponent">
           <viewComponentParts xsi:type="core:DataBinding" id="_TjxzICahEfCdl9B06udFTw" name="Data Binding">
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_WJhtYCahEfCdl9B06udFTw" name="Visualization Attribute"/>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_Xrz_gCahEfCdl9B06udFTw" name="Visualization Attribute"/>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_Y7HrQCahEfCdl9B06udFTw" name="Visualization Attribute"/>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_apiU4CahEfCdl9B06udFTw" name="Visualization Attribute"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_WJhtYCahEfCdl9B06udFTw" name="idBuku">
+              <featureConcept href="GenreRecommendation.core#//@domainModel/@domainElements.1"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_Xrz_gCahEfCdl9B06udFTw" name="jumlahHalaman">
+              <featureConcept href="GenreRecommendation.core#//@domainModel/@domainElements.5"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_Y7HrQCahEfCdl9B06udFTw" name="penulis">
+              <featureConcept href="GenreRecommendation.core#//@domainModel/@domainElements.3"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_apiU4CahEfCdl9B06udFTw" name="deskripsiBuku">
+              <featureConcept href="GenreRecommendation.core#//@domainModel/@domainElements.6"/>
+            </subViewComponentParts>
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>

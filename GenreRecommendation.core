@@ -5,10 +5,10 @@
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_nJcLICahEfCdl9B06udFTw" name="ViewContainer">
         <viewElements xsi:type="core:ViewComponent" id="_pSydQCahEfCdl9B06udFTw" name="ViewComponent">
           <viewComponentParts xsi:type="core:DataBinding" id="_rp--ICahEfCdl9B06udFTw" name="Data Binding">
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_tjvVECahEfCdl9B06udFTw" name="Visualization Attribute"/>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_vNJi4CahEfCdl9B06udFTw" name="Visualization Attribute"/>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_wp3_kCahEfCdl9B06udFTw" name="Visualization Attribute"/>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_yY00sCahEfCdl9B06udFTw" name="Visualization Attribute"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_tjvVECahEfCdl9B06udFTw" name="idBuku" featureConcept="//@domainModel/@domainElements.1"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_vNJi4CahEfCdl9B06udFTw" name="jumlahHalaman" featureConcept="//@domainModel/@domainElements.5"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_wp3_kCahEfCdl9B06udFTw" name="genre" featureConcept="//@domainModel/@domainElements.7"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_yY00sCahEfCdl9B06udFTw" name="deskripsiBuku" featureConcept="//@domainModel/@domainElements.6"/>
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>
