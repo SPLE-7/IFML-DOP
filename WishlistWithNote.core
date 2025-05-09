@@ -20,7 +20,7 @@
         <modifies href="Wishlist.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_FYVkACXkEfCtKsRWf9cAMQ" name="Add Wishlist With Note Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.0">
-        <annotations text="/wishlust/notes/add"/>
+        <annotations text="/wishlist/notes/add"/>
         <viewElements xsi:type="ext:Form" id="_H5B_ICXkEfCtKsRWf9cAMQ" name="Form">
           <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_ckwnUCXkEfCtKsRWf9cAMQ" name="OnSubmit Event">
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_rjaX8CXkEfCtKsRWf9cAMQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>

@@ -109,10 +109,17 @@
         </outInteractionFlows>
       </viewElementEvents>
     </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_Y3DugCzfEfC6gIGEcR_iUw" name="Peminjaman">
-      <viewElementEvents id="_gp28cCzfEfC6gIGEcR_iUw" name="ViewElement Event">
-        <outInteractionFlows xsi:type="core:NavigationFlow" id="_h1KR8CzfEfC6gIGEcR_iUw">
-          <targetInteractionFlowElement xsi:type="core:ViewContainer" href="Peminjaman.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_QL1RgCzkEfC6gIGEcR_iUw" name="BukuFisik">
+      <viewElementEvents id="_UshOcCzkEfC6gIGEcR_iUw" name="ViewElement Event">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_VbfNQCzkEfC6gIGEcR_iUw">
+          <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="BukuFisik.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
+      </viewElementEvents>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_z2QtoCzkEfC6gIGEcR_iUw" name="BukuDigital">
+      <viewElementEvents id="_35tU8CzkEfC6gIGEcR_iUw" name="ViewElement Event">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_45UX0CzkEfC6gIGEcR_iUw">
+          <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="BukuDigital.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </outInteractionFlows>
       </viewElementEvents>
     </interactionFlowModelElements>
