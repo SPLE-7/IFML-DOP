@@ -46,6 +46,13 @@
         </outInteractionFlows>
       </viewElementEvents>
     </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_KMCtYCykEfCqo_ux4DNapw" name="Genre Recommendation">
+      <viewElementEvents id="_NrJRgCykEfCqo_ux4DNapw" name="ViewElement Event">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_PDpVgCykEfCqo_ux4DNapw">
+          <targetInteractionFlowElement xsi:type="core:ViewContainer" href="GenreRecommendation.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
+      </viewElementEvents>
+    </interactionFlowModelElements>
   </interactionFlowModel>
   <domainModel id="_tuy5ISD8EfCyTIMTUXcE5w">
     <domainElements xsi:type="core:UMLDomainConcept" id="_tvDX0CD8EfCyTIMTUXcE5w" name="DaftarBukuImpl">
