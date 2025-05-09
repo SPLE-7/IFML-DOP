@@ -102,6 +102,20 @@
         </outInteractionFlows>
       </viewElementEvents>
     </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_jdZ3kCzeEfC6gIGEcR_iUw" name="Renewal">
+      <viewElementEvents id="_uknckCzeEfC6gIGEcR_iUw" name="ViewElement Event">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_vsrQ0CzeEfC6gIGEcR_iUw">
+          <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="Renewal.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
+      </viewElementEvents>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_Y3DugCzfEfC6gIGEcR_iUw" name="Peminjaman">
+      <viewElementEvents id="_gp28cCzfEfC6gIGEcR_iUw" name="ViewElement Event">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_h1KR8CzfEfC6gIGEcR_iUw">
+          <targetInteractionFlowElement xsi:type="core:ViewContainer" href="Peminjaman.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
+      </viewElementEvents>
+    </interactionFlowModelElements>
   </interactionFlowModel>
   <domainModel id="_tuy5ISD8EfCyTIMTUXcE5w">
     <domainElements xsi:type="core:UMLDomainConcept" id="_tvDX0CD8EfCyTIMTUXcE5w" name="DaftarBukuImpl">

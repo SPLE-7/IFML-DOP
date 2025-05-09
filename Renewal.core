@@ -5,6 +5,7 @@
       <inputPorts id="_Ms6qICUOEfCt35NHVF_M3w" name="Input Port"/>
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_VL1pICUMEfCt35NHVF_M3w" name="Lihat Peminjaman Renewal Page">
         <annotations text="/peminjaman/renewal/list"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.15/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElements xsi:type="dop-extension:ModifiedList" id="_gNs0ECUMEfCt35NHVF_M3w" name="List Peminjaman Renewal">
           <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_jxiHMCUMEfCt35NHVF_M3w" name="List Peminjaman Renewal">
             <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_vVFC4CUMEfCt35NHVF_M3w" name="Renewal Count" featureConcept="//@domainModel/@domainElements.52"/>

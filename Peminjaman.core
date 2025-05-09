@@ -7,6 +7,7 @@
         <annotations text="/peminjaman/list"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.2/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.16/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElementEvents id="_A1vIICULEfCt35NHVF_M3w" name="Tambah Peminjaman">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_CcmYQCULEfCt35NHVF_M3w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>
