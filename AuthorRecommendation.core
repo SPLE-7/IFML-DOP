@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
-<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_BU1WcCahEfCdl9B06udFTw">
+<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_BU1WcCahEfCdl9B06udFTw">
   <interactionFlowModel id="_LKkFcCahEfCdl9B06udFTw">
-    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_LKl6oCahEfCdl9B06udFTw" name="Module Definition">
+    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_LKl6oCahEfCdl9B06udFTw" name="AuthorRecommendation">
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_P15MICahEfCdl9B06udFTw" name="ViewContainer">
+        <annotations text="/AuthorRecomendation"/>
+        <outInteractionFlows xsi:type="core:DataFlow" id="_cQBogCyqEfC6gIGEcR_iUw"/>
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_n8ehMCytEfC6gIGEcR_iUw">
+          <targetInteractionFlowElement xsi:type="ext:IFMLMenu" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.8"/>
+        </outInteractionFlows>
         <viewElements xsi:type="core:ViewComponent" id="_REoQICahEfCdl9B06udFTw" name="ViewComponent">
           <viewComponentParts xsi:type="core:DataBinding" id="_TjxzICahEfCdl9B06udFTw" name="Data Binding">
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_WJhtYCahEfCdl9B06udFTw" name="idBuku">
@@ -19,6 +24,7 @@
             </subViewComponentParts>
           </viewComponentParts>
         </viewElements>
+        <viewElements id="_nnT-9yysEfC6gIGEcR_iUw"/>
       </interactionFlowModelElement>
     </interactionFlowModelElements>
   </interactionFlowModel>

@@ -53,6 +53,10 @@
         </outInteractionFlows>
       </viewElementEvents>
     </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_PSFLYCyqEfC6gIGEcR_iUw" name="Author Recommendation">
+      <inInteractionFlows xsi:type="core:NavigationFlow" href="AuthorRecommendation.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@outInteractionFlows.1"/>
+      <viewElementEvents id="_Y6ugoCyqEfC6gIGEcR_iUw" name="ViewElement Event"/>
+    </interactionFlowModelElements>
   </interactionFlowModel>
   <domainModel id="_tuy5ISD8EfCyTIMTUXcE5w">
     <domainElements xsi:type="core:UMLDomainConcept" id="_tvDX0CD8EfCyTIMTUXcE5w" name="DaftarBukuImpl">
