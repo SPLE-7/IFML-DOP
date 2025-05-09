@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="ASCII"?>
-<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_BU1WcCahEfCdl9B06udFTw">
+<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:dop-extension="http://amanah.cs.ui.ac.id/ifml/dop" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_BU1WcCahEfCdl9B06udFTw">
   <interactionFlowModel id="_LKkFcCahEfCdl9B06udFTw">
-    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_LKl6oCahEfCdl9B06udFTw" name="Module Definition">
-      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_P15MICahEfCdl9B06udFTw" name="ViewContainer">
-        <viewElements xsi:type="core:ViewComponent" id="_REoQICahEfCdl9B06udFTw" name="ViewComponent">
-          <viewComponentParts xsi:type="core:DataBinding" id="_TjxzICahEfCdl9B06udFTw" name="Data Binding">
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_WJhtYCahEfCdl9B06udFTw" name="idBuku">
-              <featureConcept href="GenreRecommendation.core#//@domainModel/@domainElements.1"/>
+    <interactionFlowModelElements xsi:type="dop-extension:DeltaModuleDefinition" id="_EhMb4CzPEfC6gIGEcR_iUw" name="AuthorRecommendation">
+      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_GJf2cCzPEfC6gIGEcR_iUw" name="Modified ViewContainer">
+        <annotations text="/authorrecommendation"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.7/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <viewElements xsi:type="core:ViewComponent" id="_WJXMcCzPEfC6gIGEcR_iUw" name="ViewComponent">
+          <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_Z_LAYCzPEfC6gIGEcR_iUw" name="Modified Data Binding">
+            <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_cE-2UCzPEfC6gIGEcR_iUw" name="idBuku">
+              <featureConcept href="DaftarBuku.core#//@domainModel/@domainElements.1"/>
             </subViewComponentParts>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_Xrz_gCahEfCdl9B06udFTw" name="jumlahHalaman">
-              <featureConcept href="GenreRecommendation.core#//@domainModel/@domainElements.5"/>
+            <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_clYNoCzPEfC6gIGEcR_iUw" name="jumlahHalaman">
+              <featureConcept href="DaftarBuku.core#//@domainModel/@domainElements.5"/>
             </subViewComponentParts>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_Y7HrQCahEfCdl9B06udFTw" name="penulis">
-              <featureConcept href="GenreRecommendation.core#//@domainModel/@domainElements.3"/>
+            <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_dHW5UCzPEfC6gIGEcR_iUw" name="penulis">
+              <featureConcept href="DaftarBuku.core#//@domainModel/@domainElements.3"/>
             </subViewComponentParts>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_apiU4CahEfCdl9B06udFTw" name="deskripsiBuku">
-              <featureConcept href="GenreRecommendation.core#//@domainModel/@domainElements.6"/>
+            <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_dltpQCzPEfC6gIGEcR_iUw" name="deskripsiBuku">
+              <featureConcept href="DaftarBuku.core#//@domainModel/@domainElements.6"/>
             </subViewComponentParts>
           </viewComponentParts>
         </viewElements>

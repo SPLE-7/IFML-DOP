@@ -2,8 +2,11 @@
 <core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:dop-extension="http://amanah.cs.ui.ac.id/ifml/dop" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_T7pVICUjEfCt35NHVF_M3w">
   <interactionFlowModel id="_XVxSoCUjEfCt35NHVF_M3w">
     <interactionFlowModelElements xsi:type="dop-extension:DeltaModuleDefinition" id="_XVzu4CUjEfCt35NHVF_M3w" name="WishlistWithStatus">
-      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_iVvnMCUjEfCt35NHVF_M3w" name="Lihat Wishlist With Status Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0">
+      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_iVvnMCUjEfCt35NHVF_M3w" name="Lihat Wishlist With Status Page">
         <annotations text="/wishlist/status/list"/>
+        <annotations text="/wishlistwithstatus"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.10/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElementEvents id="_dukSkCXlEfCtKsRWf9cAMQ" name="ViewElement Event">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_mimUACXlEfCtKsRWf9cAMQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>

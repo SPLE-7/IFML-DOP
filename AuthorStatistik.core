@@ -4,7 +4,9 @@
     <interactionFlowModelElements xsi:type="dop-extension:DeltaModuleDefinition" id="_u3SKQCUlEfCt35NHVF_M3w" name="AuthorStatistik">
       <inputPorts id="_K-WGICUnEfCt35NHVF_M3w" name="Input Port"/>
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_1IEy4CUlEfCt35NHVF_M3w" name="List Table Author Statistik">
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.13/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElements xsi:type="dop-extension:ModifiedViewContainer" id="_F8fyUCUmEfCt35NHVF_M3w" name="List Table Author Statistik">
+          <annotations text="/authorstatistik"/>
           <viewElements xsi:type="dop-extension:AddedViewContainer" id="_PZgfUCUmEfCt35NHVF_M3w" name="List Penulis">
             <annotations text="/list-table-statistik?tab=ChartPenulis"/>
             <viewElements xsi:type="dop-extension:AddedList" id="_bBNiQCUmEfCt35NHVF_M3w" name="Chart Penulis">

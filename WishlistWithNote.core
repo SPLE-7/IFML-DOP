@@ -3,8 +3,10 @@
   <interactionFlowModel id="_TEt0gCUgEfCt35NHVF_M3w">
     <interactionFlowModelElements xsi:type="dop-extension:DeltaModuleDefinition" id="_TEw30CUgEfCt35NHVF_M3w" name="WishlistWithNote">
       <inputPorts id="_DJ6dUCUjEfCt35NHVF_M3w" name="Input Port"/>
-      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_NAcTACUiEfCt35NHVF_M3w" name="Lihat Wishlist With Note Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0">
+      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_NAcTACUiEfCt35NHVF_M3w" name="Lihat Wishlist With Note Page">
         <annotations text="/wishlist/note/list"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.9/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElementEvents id="_jMbe4CXkEfCtKsRWf9cAMQ" name="Tambah Peminjaman">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_qen6ICXkEfCtKsRWf9cAMQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>
@@ -18,6 +20,7 @@
         <modifies href="Wishlist.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_FYVkACXkEfCtKsRWf9cAMQ" name="ViewContainer" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="\wishlistwithnote"/>
         <viewElements xsi:type="ext:Form" id="_H5B_ICXkEfCtKsRWf9cAMQ" name="Form">
           <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_ckwnUCXkEfCtKsRWf9cAMQ" name="OnSubmit Event">
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_rjaX8CXkEfCtKsRWf9cAMQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
