@@ -1,35 +1,16 @@
 <?xml version="1.0" encoding="ASCII"?>
-<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:dop-extension="http://amanah.cs.ui.ac.id/ifml/dop" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_qGacQCUlEfCt35NHVF_M3w">
+<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:dop-extension="http://amanah.cs.ui.ac.id/ifml/dop" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_qGacQCUlEfCt35NHVF_M3w">
   <interactionFlowModel id="_G4f1oCUoEfCt35NHVF_M3w">
-    <interactionFlowModelElements xsi:type="dop-extension:DeltaModuleDefinition" id="_G4i48CUoEfCt35NHVF_M3w" name="GenreStatistik">
-      <annotations text="AddedFeature"/>
-      <inputPorts id="_mNRqsCUpEfCt35NHVF_M3w" name="Input Port"/>
-      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_L5ax0CUoEfCt35NHVF_M3w" name="List Table Genre Statistik">
-        <annotations text="/genrestatistik"/>
-        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.14/@viewElementEvents.0/@outInteractionFlows.0"/>
-        <viewElements xsi:type="dop-extension:ModifiedViewContainer" id="_X94pQCUoEfCt35NHVF_M3w" name="List Table Genre Statistik">
-          <annotations text="Tab"/>
-          <viewElements xsi:type="dop-extension:AddedViewContainer" id="_nPGwkCUoEfCt35NHVF_M3w" name="List Genre">
-            <annotations text="list-table-statistik?tab=ChartGenre"/>
-            <viewElements xsi:type="dop-extension:AddedList" id="_rx0t0CUoEfCt35NHVF_M3w" name="Chart Genre">
-              <viewComponentParts xsi:type="dop-extension:AddedDataBinding" id="_zsEnkCUoEfCt35NHVF_M3w" name="Data Statistik">
-                <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_6y0n0CUoEfCt35NHVF_M3w" name="Genre" featureConcept="//@domainModel/@domainElements.7">
-                  <annotations text="isGroupedBy"/>
-                </subViewComponentParts>
-                <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_BiJmkCUpEfCt35NHVF_M3w" name="Jumlah Buku Statistik">
-                  <annotations text="isSource"/>
-                </subViewComponentParts>
-                <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_IbsRQCUpEfCt35NHVF_M3w" name="Nama Chart">
-                  <annotations text="isGroupLabel"/>
-                </subViewComponentParts>
-              </viewComponentParts>
-            </viewElements>
-          </viewElements>
-          <modifies href="Statistik.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0"/>
+    <interactionFlowModelElements xsi:type="dop-extension:DeltaModuleDefinition" id="_fjPjkCzoEfCS__bU_LhnfQ" name="GenreStatistik">
+      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_jjiJMCzoEfCS__bU_LhnfQ" name="Modified ViewContainer">
+        <viewElements xsi:type="ext:List" id="_lxfOgCzoEfCS__bU_LhnfQ" name="Chart Genre">
+          <viewComponentParts xsi:type="core:DataBinding" id="_rV0ZwCzoEfCS__bU_LhnfQ" name="Data Binding">
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_sxE20CzoEfCS__bU_LhnfQ" name="jumlahBukuStatistik"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_t9eYgCzoEfCS__bU_LhnfQ" name="genre"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_wXAbsCzoEfCS__bU_LhnfQ" name="Visualization Attribute"/>
+          </viewComponentParts>
         </viewElements>
-        <modifies href="Statistik.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
       </interactionFlowModelElement>
-      <uses href="Statistik.core#//@interactionFlowModel/@interactionFlowModelElements.0"/>
     </interactionFlowModelElements>
   </interactionFlowModel>
   <domainModel id="_qGacQSUlEfCt35NHVF_M3w">

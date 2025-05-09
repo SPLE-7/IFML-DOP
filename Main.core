@@ -25,13 +25,6 @@
         </outInteractionFlows>
       </viewElementEvents>
     </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_RsvD4CafEfCdl9B06udFTw" name="Statistik">
-      <viewElementEvents id="_WB2C8CafEfCdl9B06udFTw" name="ViewElement Event">
-        <outInteractionFlows xsi:type="core:NavigationFlow" id="_XO99YCafEfCdl9B06udFTw">
-          <targetInteractionFlowElement xsi:type="core:ViewContainer" href="Statistik.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
-        </outInteractionFlows>
-      </viewElementEvents>
-    </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_kqxbMCafEfCdl9B06udFTw" name="Wishlist">
       <viewElementEvents id="_oMRMACafEfCdl9B06udFTw" name="ViewElement Event">
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_s8c9gCafEfCdl9B06udFTw">
@@ -85,20 +78,6 @@
       <viewElementEvents id="__uBHICzWEfC6gIGEcR_iUw" name="ViewElement Event">
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_ApaYYCzXEfC6gIGEcR_iUw">
           <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="ReviewKomentar.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
-        </outInteractionFlows>
-      </viewElementEvents>
-    </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_hw3hcCzXEfC6gIGEcR_iUw" name="AuthorStatistik">
-      <viewElementEvents id="_lye8wCzXEfC6gIGEcR_iUw" name="ViewElement Event">
-        <outInteractionFlows xsi:type="core:NavigationFlow" id="_monTgCzXEfC6gIGEcR_iUw">
-          <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="AuthorStatistik.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
-        </outInteractionFlows>
-      </viewElementEvents>
-    </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_AMf9cCzYEfC6gIGEcR_iUw" name="GenreStatistik">
-      <viewElementEvents id="_C8oiwCzYEfC6gIGEcR_iUw" name="ViewElement Event">
-        <outInteractionFlows xsi:type="core:NavigationFlow" id="_DtafcCzYEfC6gIGEcR_iUw">
-          <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="GenreStatistik.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </outInteractionFlows>
       </viewElementEvents>
     </interactionFlowModelElements>

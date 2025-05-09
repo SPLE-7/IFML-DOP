@@ -5,7 +5,7 @@
       <inputPorts id="_R2l4sCUZEfCt35NHVF_M3w" name="Input Port"/>
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_s8CloCHwEfCYKd9j4aQklA" name="Lihat Review Bintang Page">
         <annotations text="/review/:id_buku/list"/>
-        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.11/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.10/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElements xsi:type="dop-extension:ModifiedList" id="_2n18kCHwEfCYKd9j4aQklA" name="List Review Bintang">
           <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_90xdUCHwEfCYKd9j4aQklA" name="Data Review Bintang">
             <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_Avnd0CHxEfCYKd9j4aQklA" name="Jumlah Bintang">

@@ -4,7 +4,7 @@
     <interactionFlowModelElements xsi:type="dop-extension:DeltaModuleDefinition" id="_EhMb4CzPEfC6gIGEcR_iUw" name="AuthorRecommendation">
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_GJf2cCzPEfC6gIGEcR_iUw" name="Modified ViewContainer">
         <annotations text="/authorrecommendation"/>
-        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.7/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.6/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElements xsi:type="core:ViewComponent" id="_WJXMcCzPEfC6gIGEcR_iUw" name="ViewComponent">
           <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_Z_LAYCzPEfC6gIGEcR_iUw" name="Modified Data Binding">
             <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_cE-2UCzPEfC6gIGEcR_iUw" name="idBuku">

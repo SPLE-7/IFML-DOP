@@ -5,7 +5,7 @@
       <inputPorts id="_sPETMCUXEfCt35NHVF_M3w" name="Input Port"/>
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_d1fW4CHoEfCYKd9j4aQklA" name="Lihat Review Page">
         <annotations text="/review/:id_buku/list"/>
-        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.6/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.5/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElementEvents id="_FChoACHyEfCYKd9j4aQklA" name="Tambah Review">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_QXwa4CHyEfCYKd9j4aQklA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>

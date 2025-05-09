@@ -5,7 +5,7 @@
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_iVvnMCUjEfCt35NHVF_M3w" name="Lihat Wishlist With Status Page">
         <annotations text="/wishlist/status/list"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
-        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.10/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.9/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElementEvents id="_dukSkCXlEfCtKsRWf9cAMQ" name="ViewElement Event">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_mimUACXlEfCtKsRWf9cAMQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>
