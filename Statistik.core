@@ -4,6 +4,7 @@
     <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_VTBtcCznEfCS__bU_LhnfQ" name="Statistik">
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_ZE740CznEfCS__bU_LhnfQ" name="ViewContainer">
         <annotations text="/statistikpage"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.14/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElements xsi:type="ext:List" id="_NKNWwCzoEfCS__bU_LhnfQ" name="List">
           <viewComponentParts xsi:type="core:VisualizationAttribute" id="_P7o8kCzoEfCS__bU_LhnfQ" name="jumlahBukuStatistik">
             <featureConcept href="ReviewBintang.core#//@domainModel/@domainElements.19"/>

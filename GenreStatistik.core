@@ -3,6 +3,8 @@
   <interactionFlowModel id="_G4f1oCUoEfCt35NHVF_M3w">
     <interactionFlowModelElements xsi:type="dop-extension:DeltaModuleDefinition" id="_fjPjkCzoEfCS__bU_LhnfQ" name="GenreStatistik">
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_jjiJMCzoEfCS__bU_LhnfQ" name="Modified ViewContainer">
+        <annotations text="/genrestatistik"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.15/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElements xsi:type="ext:List" id="_lxfOgCzoEfCS__bU_LhnfQ" name="Chart Genre">
           <viewComponentParts xsi:type="core:DataBinding" id="_rV0ZwCzoEfCS__bU_LhnfQ" name="Data Binding">
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_sxE20CzoEfCS__bU_LhnfQ" name="jumlahBukuStatistik"/>
@@ -10,7 +12,9 @@
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_wXAbsCzoEfCS__bU_LhnfQ" name="Visualization Attribute"/>
           </viewComponentParts>
         </viewElements>
+        <modifies href="Statistik.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
       </interactionFlowModelElement>
+      <uses href="Statistik.core#//@interactionFlowModel/@interactionFlowModelElements.0"/>
     </interactionFlowModelElements>
   </interactionFlowModel>
   <domainModel id="_qGacQSUlEfCt35NHVF_M3w">
