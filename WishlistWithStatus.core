@@ -17,6 +17,7 @@
         <modifies href="Wishlist.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_4DWqcCXkEfCtKsRWf9cAMQ" name="Modified ViewContainer" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="WishlistWithStatus"/>
         <viewElements xsi:type="ext:Form" id="_DsAvoCXlEfCtKsRWf9cAMQ" name="Form">
           <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_ipoeYCXlEfCtKsRWf9cAMQ" name="Simpan Wishlist">
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_kquMYCXlEfCtKsRWf9cAMQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
@@ -39,6 +40,7 @@
         </actionEvents>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_lV_hgCXmEfCtKsRWf9cAMQ" name="ViewContainer">
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.10/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElements xsi:type="ext:Form" id="_nbRzACXmEfCtKsRWf9cAMQ" name="Form">
           <viewComponentParts xsi:type="core:DataBinding" id="_pXj5gCXmEfCtKsRWf9cAMQ" name="Data Binding">
             <subViewComponentParts xsi:type="ext:SelectionField" id="_v9g50CXmEfCtKsRWf9cAMQ" name="Selection Field">

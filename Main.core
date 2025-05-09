@@ -46,16 +46,44 @@
         </outInteractionFlows>
       </viewElementEvents>
     </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_KMCtYCykEfCqo_ux4DNapw" name="Genre Recommendation">
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_KMCtYCykEfCqo_ux4DNapw" name="GenreRecommendation">
       <viewElementEvents id="_NrJRgCykEfCqo_ux4DNapw" name="ViewElement Event">
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_PDpVgCykEfCqo_ux4DNapw">
           <targetInteractionFlowElement xsi:type="core:ViewContainer" href="GenreRecommendation.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </outInteractionFlows>
       </viewElementEvents>
     </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_PSFLYCyqEfC6gIGEcR_iUw" name="Author Recommendation">
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_PSFLYCyqEfC6gIGEcR_iUw" name="AuthorRecommendation">
       <inInteractionFlows xsi:type="core:NavigationFlow" href="AuthorRecommendation.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@outInteractionFlows.1"/>
-      <viewElementEvents id="_Y6ugoCyqEfC6gIGEcR_iUw" name="ViewElement Event"/>
+      <viewElementEvents id="_uR7YoCyzEfC6gIGEcR_iUw" name="ViewElement Event">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_v0QuECyzEfC6gIGEcR_iUw">
+          <targetInteractionFlowElement xsi:type="core:ViewContainer" href="AuthorRecommendation.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
+      </viewElementEvents>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_OUnZYCyxEfC6gIGEcR_iUw" name="WishlistWithNote">
+      <viewElementEvents id="_mQVysCyxEfC6gIGEcR_iUw" name="ViewElement Event">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_pp_PECyxEfC6gIGEcR_iUw">
+          <targetInteractionFlowElement xsi:type="core:ViewContainer" href="WishlistWithNote.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
+        </outInteractionFlows>
+      </viewElementEvents>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_aEoOUCyyEfC6gIGEcR_iUw" name="WishlistWithStatus">
+      <viewElementEvents id="_ehdmACyyEfC6gIGEcR_iUw" name="ViewElement Event">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_gZznsCyyEfC6gIGEcR_iUw">
+          <targetInteractionFlowElement xsi:type="core:ViewContainer" href="WishlistWithStatus.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3"/>
+        </outInteractionFlows>
+      </viewElementEvents>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_BYu08Cy1EfC6gIGEcR_iUw" name="ReviewKomentar" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.11/@viewElementEvents.0/@outInteractionFlows.0">
+      <viewElementEvents id="_IK33ICy1EfC6gIGEcR_iUw" name="ViewElement Event">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_J_X6oCy1EfC6gIGEcR_iUw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.11"/>
+      </viewElementEvents>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_EYcuYCy1EfC6gIGEcR_iUw" name="ReviewBintang" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.12/@viewElementEvents.0/@outInteractionFlows.0">
+      <viewElementEvents id="_I7Xf8Cy1EfC6gIGEcR_iUw" name="ViewElement Event">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_KtVz4Cy1EfC6gIGEcR_iUw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.12"/>
+      </viewElementEvents>
     </interactionFlowModelElements>
   </interactionFlowModel>
   <domainModel id="_tuy5ISD8EfCyTIMTUXcE5w">
