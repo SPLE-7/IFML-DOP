@@ -5,20 +5,15 @@
       <annotations text="/"/>
     </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_fDVOYCabEfCdl9B06udFTw" name="DaftarBuku">
+      <annotations text="DaftarBuku"/>
       <viewElementEvents id="_kbm6oCabEfCdl9B06udFTw" name="ViewElement Event">
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_nC0NcCabEfCdl9B06udFTw">
           <targetInteractionFlowElement xsi:type="core:ViewContainer" href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </outInteractionFlows>
       </viewElementEvents>
     </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_gfmQsCaeEfCdl9B06udFTw" name="Peminjaman">
-      <viewElementEvents id="_ito1kCaeEfCdl9B06udFTw" name="ViewElement Event">
-        <outInteractionFlows xsi:type="core:NavigationFlow" id="_lQ3nUCaeEfCdl9B06udFTw">
-          <targetInteractionFlowElement xsi:type="core:ViewContainer" href="Peminjaman.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
-        </outInteractionFlows>
-      </viewElementEvents>
-    </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_GwqX4CafEfCdl9B06udFTw" name="Recommendation">
+      <annotations text="Recommendation"/>
       <viewElementEvents id="_KwzzkCafEfCdl9B06udFTw" name="ViewElement Event">
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_McrfgCafEfCdl9B06udFTw">
           <targetInteractionFlowElement xsi:type="core:ViewContainer" href="Recommendation.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
@@ -88,13 +83,6 @@
         </outInteractionFlows>
       </viewElementEvents>
     </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_Y3DugCzfEfC6gIGEcR_iUw" name="Peminjaman">
-      <viewElementEvents id="_gp28cCzfEfC6gIGEcR_iUw" name="ViewElement Event">
-        <outInteractionFlows xsi:type="core:NavigationFlow" id="_h1KR8CzfEfC6gIGEcR_iUw">
-          <targetInteractionFlowElement xsi:type="core:ViewContainer" href="Peminjaman.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
-        </outInteractionFlows>
-      </viewElementEvents>
-    </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_JhTXADF1EfCx3bNOR2Sw8w" name="BukuDigital">
       <viewElementEvents id="_jJcK0DGhEfCx3bNOR2Sw8w" name="ViewElement Event">
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_sUV0IDGhEfCx3bNOR2Sw8w">
@@ -113,6 +101,14 @@
       <viewElementEvents id="_X39KUDGzEfCx3bNOR2Sw8w" name="ViewElement Event">
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_bWJIcDGzEfCx3bNOR2Sw8w">
           <targetInteractionFlowElement xsi:type="core:ViewContainer" href="Statistik.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
+      </viewElementEvents>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_-TlJcDG4EfCx3bNOR2Sw8w" name="Peminjaman">
+      <annotations text="Peminjaman"/>
+      <viewElementEvents id="_Dl6lwDG5EfCx3bNOR2Sw8w" name="ViewElement Event">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_F8LSgDG5EfCx3bNOR2Sw8w">
+          <targetInteractionFlowElement xsi:type="core:ViewContainer" href="Peminjaman.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </outInteractionFlows>
       </viewElementEvents>
     </interactionFlowModelElements>

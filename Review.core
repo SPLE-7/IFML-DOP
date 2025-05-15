@@ -5,7 +5,7 @@
       <inputPorts id="_sPETMCUXEfCt35NHVF_M3w" name="Input Port"/>
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_d1fW4CHoEfCYKd9j4aQklA" name="Lihat Review Page">
         <annotations text="/review/:id_buku/list"/>
-        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.5/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.4/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElementEvents id="_FChoACHyEfCYKd9j4aQklA" name="Tambah Review">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_QXwa4CHyEfCYKd9j4aQklA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>
@@ -34,6 +34,9 @@
               <subViewComponentParts xsi:type="ext:IFMLSlot" id="_tfBUoCUWEfCt35NHVF_M3w" name="Id Buku"/>
               <subViewComponentParts xsi:type="ext:IFMLSlot" id="_1YhAcCUWEfCt35NHVF_M3w" name="Judul Buku" direction="out"/>
             </subViewComponentParts>
+          </viewComponentParts>
+          <viewComponentParts xsi:type="ext:SimpleField" id="_eBgB0DG7EfCx3bNOR2Sw8w" name="Simple Field">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_4u_YIDG7EfCx3bNOR2Sw8w" name="skor"/>
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>

@@ -4,7 +4,7 @@
     <interactionFlowModelElements xsi:type="dop-extension:DeltaModuleDefinition" id="_uFgnECzQEfC6gIGEcR_iUw" name="GenreRecommendation">
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_wV5VUCzQEfC6gIGEcR_iUw" name="Modified ViewContainer">
         <annotations text="/genrerecommendation"/>
-        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.7/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.6/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElements xsi:type="core:ViewComponent" id="_yIt90CzQEfC6gIGEcR_iUw" name="ViewComponent">
           <viewComponentParts xsi:type="dop-extension:AddedDataBinding" id="_4Y-a8CzQEfC6gIGEcR_iUw" name="Added Data Binding">
             <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_6uDb8CzQEfC6gIGEcR_iUw" name="idBuku">

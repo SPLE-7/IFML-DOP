@@ -5,7 +5,7 @@
       <inputPorts id="_DJ6dUCUjEfCt35NHVF_M3w" name="Input Port"/>
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_NAcTACUiEfCt35NHVF_M3w" name="Lihat Wishlist With Note Page">
         <annotations text="/wishlist/note/list"/>
-        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.8/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.7/@viewElementEvents.0/@outInteractionFlows.0"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
         <viewElementEvents id="_jMbe4CXkEfCtKsRWf9cAMQ" name="Tambah Peminjaman">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_qen6ICXkEfCtKsRWf9cAMQ"/>

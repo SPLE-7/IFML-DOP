@@ -5,7 +5,7 @@
       <inputPorts id="_cNNxcCUdEfCt35NHVF_M3w" name="Input Port"/>
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_-rqKICTyEfCF5alrS0jZdg" name="Lihat Rekomendasi Page">
         <annotations text="/rekomendasi/list"/>
-        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.3/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.2/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElements xsi:type="core:ViewComponent" id="_AyR4YCTzEfCF5alrS0jZdg" name="List Rekomendasi">
           <viewComponentParts xsi:type="core:DataBinding" id="_CYbW0CTzEfCF5alrS0jZdg" name="Data Binding Rekomendasi" uniformResourceIdentifier="call/recommendation/list">
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_EU9U8CTzEfCF5alrS0jZdg" name="Id Buku">

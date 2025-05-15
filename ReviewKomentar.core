@@ -5,7 +5,7 @@
       <inputPorts id="_cEO78CUaEfCt35NHVF_M3w" name="Input Port"/>
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_FdI1gCH0EfCYKd9j4aQklA" name="Lihat Review Komentar Page">
         <annotations text="/review/:id_buku/list"/>
-        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.11/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.10/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElements xsi:type="dop-extension:ModifiedList" id="_Js1JECH0EfCYKd9j4aQklA" name="List Review Komentar">
           <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_M7VscCH0EfCYKd9j4aQklA" name="Data Review Komentar">
             <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_Z3Ct4CH0EfCYKd9j4aQklA" name="Isi Komentar">
