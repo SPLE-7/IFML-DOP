@@ -95,25 +95,6 @@
         </outInteractionFlows>
       </viewElementEvents>
     </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_HV7cQCzuEfCplorBKve42A" name="Statistik">
-      <viewElementEvents id="_Om0P8CzuEfCplorBKve42A" name="ViewElement Event">
-        <outInteractionFlows xsi:type="core:NavigationFlow" id="_QW2DICzuEfCplorBKve42A"/>
-      </viewElementEvents>
-    </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_H67mwCzuEfCplorBKve42A" name="GenreStatistik">
-      <viewElementEvents id="_PSEzcCzuEfCplorBKve42A" name="ViewElement Event">
-        <outInteractionFlows xsi:type="core:NavigationFlow" id="_Sc6-0CzuEfCplorBKve42A">
-          <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="GenreStatistik.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
-        </outInteractionFlows>
-      </viewElementEvents>
-    </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_IstB8CzuEfCplorBKve42A" name="AuthorStatistik">
-      <viewElementEvents id="_PnfCwCzuEfCplorBKve42A" name="ViewElement Event">
-        <outInteractionFlows xsi:type="core:NavigationFlow" id="_WNMLcCzuEfCplorBKve42A">
-          <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="AuthorStatistik.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
-        </outInteractionFlows>
-      </viewElementEvents>
-    </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_JhTXADF1EfCx3bNOR2Sw8w" name="BukuDigital">
       <viewElementEvents id="_jJcK0DGhEfCx3bNOR2Sw8w" name="ViewElement Event">
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_sUV0IDGhEfCx3bNOR2Sw8w">
@@ -125,6 +106,13 @@
       <viewElementEvents id="_9BiIADGSEfCx3bNOR2Sw8w" name="ViewElement Event">
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_GfpBMDGTEfCx3bNOR2Sw8w">
           <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="BukuFisik.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
+      </viewElementEvents>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_UM-tYDGzEfCx3bNOR2Sw8w" name="Statistik">
+      <viewElementEvents id="_X39KUDGzEfCx3bNOR2Sw8w" name="ViewElement Event">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_bWJIcDGzEfCx3bNOR2Sw8w">
+          <targetInteractionFlowElement xsi:type="core:ViewContainer" href="Statistik.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </outInteractionFlows>
       </viewElementEvents>
     </interactionFlowModelElements>

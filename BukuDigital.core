@@ -6,7 +6,7 @@
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_uZm8cCEXEfCyTIMTUXcE5w" name="Lihat Buku Digital Page">
         <annotations text="/daftarbuku/digital/list"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
-        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.17/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.14/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElementEvents id="_F59SUDF0EfCx3bNOR2Sw8w" name="ViewElement Event">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_LNXssDF0EfCx3bNOR2Sw8w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>

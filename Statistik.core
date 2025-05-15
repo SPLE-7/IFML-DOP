@@ -2,12 +2,45 @@
 <core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_u0vvUCHSEfCVTpuhwdZlGw">
   <interactionFlowModel id="_ZL86kCHVEfCVTpuhwdZlGw">
     <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_VTBtcCznEfCS__bU_LhnfQ" name="Statistik">
-      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_3aYNEDGkEfCx3bNOR2Sw8w" name="ViewContainer">
-        <viewElements xsi:type="core:ViewContainer" id="_9zcA4DGkEfCx3bNOR2Sw8w" name="ViewContainer">
-          <viewElements xsi:type="ext:List" id="_FE9GsDGlEfCx3bNOR2Sw8w" name="List"/>
-        </viewElements>
-        <viewElements xsi:type="core:ViewContainer" id="_AdiPoDGlEfCx3bNOR2Sw8w" name="ViewContainer">
-          <viewElements xsi:type="ext:List" id="_HDLG4DGlEfCx3bNOR2Sw8w" name="List"/>
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_HLhUIDGxEfCx3bNOR2Sw8w" name="List Table Statistik">
+        <annotations text="/list-table-statistik"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.16/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <viewElements xsi:type="core:ViewContainer" id="_3aYNEDGkEfCx3bNOR2Sw8w" name="Wrapper Tab">
+          <annotations text="Tab"/>
+          <viewElements xsi:type="core:ViewContainer" id="_9zcA4DGkEfCx3bNOR2Sw8w" name="ListGenre">
+            <annotations text="/list-table-statistik?tab=ListGenre"/>
+            <viewElements xsi:type="ext:List" id="_FE9GsDGlEfCx3bNOR2Sw8w" name="List Genre">
+              <annotations text="PieChart"/>
+              <viewComponentParts xsi:type="core:DataBinding" id="_eNBdsDGtEfCx3bNOR2Sw8w" name="Data Binding">
+                <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_lYCS4DGtEfCx3bNOR2Sw8w" name="jumlahBuku">
+                  <annotations text="isSource"/>
+                </subViewComponentParts>
+                <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_q4ayQDGtEfCx3bNOR2Sw8w" name="genre">
+                  <annotations text="isGroupedBy"/>
+                </subViewComponentParts>
+                <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_1JR-EDGtEfCx3bNOR2Sw8w" name="namaChart">
+                  <annotations text="isGroupedLabel"/>
+                </subViewComponentParts>
+              </viewComponentParts>
+            </viewElements>
+          </viewElements>
+          <viewElements xsi:type="core:ViewContainer" id="_AdiPoDGlEfCx3bNOR2Sw8w" name="ListAuthor">
+            <annotations text="/list-table-statistik?tab=ListAuthor"/>
+            <viewElements xsi:type="ext:List" id="_HDLG4DGlEfCx3bNOR2Sw8w" name="List Author">
+              <annotations text="PieChart"/>
+              <viewComponentParts xsi:type="core:DataBinding" id="_f-rBgDGtEfCx3bNOR2Sw8w" name="Data Binding">
+                <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_2_Wu4DGtEfCx3bNOR2Sw8w" name="jumlahBuku">
+                  <annotations text="isSource"/>
+                </subViewComponentParts>
+                <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_5JfEIDGtEfCx3bNOR2Sw8w" name="author">
+                  <annotations text="isGroupedBy"/>
+                </subViewComponentParts>
+                <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_WtSgQDGuEfCx3bNOR2Sw8w" name="namaChart">
+                  <annotations text="isGroupedLabel"/>
+                </subViewComponentParts>
+              </viewComponentParts>
+            </viewElements>
+          </viewElements>
         </viewElements>
       </interactionFlowModelElement>
     </interactionFlowModelElements>
