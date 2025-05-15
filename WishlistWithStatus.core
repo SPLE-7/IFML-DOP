@@ -4,10 +4,11 @@
     <interactionFlowModelElements xsi:type="dop-extension:DeltaModuleDefinition" id="_XVzu4CUjEfCt35NHVF_M3w" name="WishlistWithStatus">
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_iVvnMCUjEfCt35NHVF_M3w" name="Lihat Wishlist With Status Page">
         <annotations text="/wishlist/status/list"/>
-        <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.9/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
         <viewElementEvents id="_dukSkCXlEfCtKsRWf9cAMQ" name="ViewElement Event">
-          <outInteractionFlows xsi:type="core:NavigationFlow" id="_mimUACXlEfCtKsRWf9cAMQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_mimUACXlEfCtKsRWf9cAMQ"/>
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_KlwlADFyEfCx3bNOR2Sw8w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>
         <viewElements xsi:type="dop-extension:ModifiedList" id="_q7wawCUjEfCt35NHVF_M3w" name="List Wishlist With Status">
           <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_yIlN0CUjEfCt35NHVF_M3w" name="List Wishlist With Status">
@@ -18,27 +19,23 @@
         </viewElements>
         <modifies href="Wishlist.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
       </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_4DWqcCXkEfCtKsRWf9cAMQ" name="Add Wishlist With Status Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.0">
+      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_FXaiwDFwEfCx3bNOR2Sw8w" name="Modified ViewContainer" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.1">
         <annotations text="/wishlist/status/add"/>
-        <viewElements xsi:type="ext:Form" id="_DsAvoCXlEfCtKsRWf9cAMQ" name="Form">
-          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_ipoeYCXlEfCtKsRWf9cAMQ" name="Simpan Wishlist">
-            <outInteractionFlows xsi:type="core:NavigationFlow" id="_kquMYCXlEfCtKsRWf9cAMQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
+        <viewElements xsi:type="dop-extension:ModifiedForm" id="_HPTRcDFwEfCx3bNOR2Sw8w" name="Modified Form">
+          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_QUxBIDFwEfCx3bNOR2Sw8w" name="Simpan Wishlist Status">
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_GCGzoDFyEfCx3bNOR2Sw8w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
           </viewElementEvents>
-          <viewComponentParts xsi:type="core:DataBinding" id="_GS7ukCXlEfCtKsRWf9cAMQ" name="Data Binding">
-            <subViewComponentParts xsi:type="ext:SelectionField" id="_J0Wm4CXlEfCtKsRWf9cAMQ" name="Selection Field">
-              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_M6ppcCXlEfCtKsRWf9cAMQ" name="Id Buku"/>
-              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_N-9mICXlEfCtKsRWf9cAMQ" name="Judul Buku"/>
-              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_Pylf4CXlEfCtKsRWf9cAMQ" name="Status"/>
-            </subViewComponentParts>
+          <viewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_Jj5KQDFwEfCx3bNOR2Sw8w" name="Added Simple Field">
+            <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_NZ4kYDFwEfCx3bNOR2Sw8w" name="AddedSlot"/>
           </viewComponentParts>
-          <viewComponentParts xsi:type="ext:SimpleField" id="_YJx0UCXlEfCtKsRWf9cAMQ" name="Simple Field">
-            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_ZyUfcCXlEfCtKsRWf9cAMQ" name="Id Akun"/>
-          </viewComponentParts>
+          <modifies href="Wishlist.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0"/>
         </viewElements>
+        <modifies href="Wishlist.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
       </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_epjUICXlEfCtKsRWf9cAMQ" name="Action" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
-        <actionEvents id="_f1b4cCXlEfCtKsRWf9cAMQ">
-          <outInteractionFlows xsi:type="core:NavigationFlow" id="_ln3KECXlEfCtKsRWf9cAMQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+      <interactionFlowModelElement xsi:type="dop-extension:AddedAction" id="_7ZtRkDFxEfCx3bNOR2Sw8w" name="Simpan Wishlist Status" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="POST"/>
+        <actionEvents xsi:type="dop-extension:AddedActionEvent" id="_8hgAEDFxEfCx3bNOR2Sw8w" name="AddedActionEvent">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_HWBSkDFyEfCx3bNOR2Sw8w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </actionEvents>
       </interactionFlowModelElement>
       <uses href="Wishlist.core#//@interactionFlowModel/@interactionFlowModelElements.0"/>

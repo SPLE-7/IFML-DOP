@@ -12,7 +12,6 @@
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_wXAbsCzoEfCS__bU_LhnfQ" name="Visualization Attribute"/>
           </viewComponentParts>
         </viewElements>
-        <modifies href="Statistik.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
       </interactionFlowModelElement>
       <uses href="Statistik.core#//@interactionFlowModel/@interactionFlowModelElements.0"/>
     </interactionFlowModelElements>
