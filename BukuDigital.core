@@ -30,7 +30,7 @@
           </viewComponentParts>
           <modifies href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0"/>
         </viewElements>
-        <viewElements xsi:type="ext:IFMLWindow" id="_mm4ZQDIpEfCx3bNOR2Sw8w" name="Confirm Delete Buku Digital" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <viewElements xsi:type="ext:IFMLWindow" id="_mm4ZQDIpEfCx3bNOR2Sw8w" name="Confirm Delete Buku Digital" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0" isModal="true">
           <viewElementEvents id="_syLd4DIpEfCx3bNOR2Sw8w" name="Confirm Delete">
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_3PoUMDIpEfCx3bNOR2Sw8w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3">
               <parameterBindingGroup id="_ZSJXUDIqEfCx3bNOR2Sw8w">
