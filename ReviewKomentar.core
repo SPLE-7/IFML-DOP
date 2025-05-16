@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="ASCII"?>
-<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:dop-extension="http://amanah.cs.ui.ac.id/ifml/dop" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_SMWP4CHwEfCYKd9j4aQklA">
+<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:dop-extension="http://amanah.cs.ui.ac.id/ifml/dop" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_SMWP4CHwEfCYKd9j4aQklA">
   <interactionFlowModel id="_4YbCACHzEfCYKd9j4aQklA">
     <interactionFlowModelElements xsi:type="dop-extension:DeltaModuleDefinition" id="_4Yf6gCHzEfCYKd9j4aQklA" name="ReviewKomentar">
       <inputPorts id="_cEO78CUaEfCt35NHVF_M3w" name="Input Port"/>
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_FdI1gCH0EfCYKd9j4aQklA" name="Lihat Review Komentar Page">
         <annotations text="/review/:id_buku/list"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.7/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
+        <viewElementEvents xsi:type="dop-extension:ModifiedViewElementEvent" id="_aGxI0DJDEfCcDqe_I5zXcA" name="Tambah Review Komen">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_qA0xwDJDEfCcDqe_I5zXcA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
+          <modifies href="Review.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0"/>
+        </viewElementEvents>
         <viewElements xsi:type="dop-extension:ModifiedList" id="_Js1JECH0EfCYKd9j4aQklA" name="List Review Komentar">
           <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_M7VscCH0EfCYKd9j4aQklA" name="Data Review Komentar" uniformResourceIdentifier="/call/reviewkomentar/list">
             <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_Z3Ct4CH0EfCYKd9j4aQklA" name="Isi Komentar">
@@ -16,12 +21,15 @@
         </viewElements>
         <modifies href="Review.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
       </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_fssSoCH0EfCYKd9j4aQklA" name="Tambah Review Komentar Page">
+      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_fssSoCH0EfCYKd9j4aQklA" name="Tambah Review Komentar Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.0">
         <annotations text="/review/:id_buku/tambah"/>
         <viewElements xsi:type="dop-extension:ModifiedForm" id="_joPiMCH0EfCYKd9j4aQklA" name="Form Tambah Review Komentar">
+          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_PgP2EDJDEfCcDqe_I5zXcA" name="Simpan Review Komentar">
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_ra7_UDJDEfCcDqe_I5zXcA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
+          </viewElementEvents>
           <viewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_m032QCH0EfCYKd9j4aQklA" name="Isi Komentar">
             <annotations text="Required"/>
-            <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_sQZq0CH0EfCYKd9j4aQklA" name="Isi Komentar">
+            <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_sQZq0CH0EfCYKd9j4aQklA" name="Komentar">
               <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </subViewComponentParts>
             <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -29,6 +37,11 @@
           <modifies href="Review.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0"/>
         </viewElements>
         <modifies href="Review.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="dop-extension:AddedAction" id="_VbEOsDJDEfCcDqe_I5zXcA" name="AddedAction" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <actionEvents xsi:type="dop-extension:AddedActionEvent" id="_t3BnQDJDEfCcDqe_I5zXcA" name="AddedActionEvent">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_vTjPoDJDEfCcDqe_I5zXcA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </actionEvents>
       </interactionFlowModelElement>
       <uses href="Review.core#//@interactionFlowModel/@interactionFlowModelElements.0"/>
     </interactionFlowModelElements>

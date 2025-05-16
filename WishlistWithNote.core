@@ -7,9 +7,9 @@
         <annotations text="/wishlist/note/list"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.5/@viewElementEvents.0/@outInteractionFlows.0"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
-        <viewElementEvents id="_jMbe4CXkEfCtKsRWf9cAMQ" name="Tambah Peminjaman">
-          <outInteractionFlows xsi:type="core:NavigationFlow" id="_qen6ICXkEfCtKsRWf9cAMQ"/>
-          <outInteractionFlows xsi:type="core:NavigationFlow" id="_N3DRYC_XEfCjVuKd7CnPOg" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
+        <viewElementEvents xsi:type="dop-extension:ModifiedViewElementEvent" id="_4bjV8DJDEfCcDqe_I5zXcA" name="Tambah Wishlist Note">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_5_cKkDJDEfCcDqe_I5zXcA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
+          <modifies href="Wishlist.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0"/>
         </viewElementEvents>
         <viewElements xsi:type="dop-extension:ModifiedList" id="_eOvyECUiEfCt35NHVF_M3w" name="List Wishlist With Note">
           <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_oy7igCUiEfCt35NHVF_M3w" name="List Wishlist With Note" uniformResourceIdentifier="/call/wishlistwithnote/list">
@@ -20,10 +20,10 @@
         </viewElements>
         <modifies href="Wishlist.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
       </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_eWsfMC_NEfCjVuKd7CnPOg" name="Add Wishlist With Note Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.1">
+      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_eWsfMC_NEfCjVuKd7CnPOg" name="Add Wishlist With Note Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.0">
         <annotations text="wishlist/note/tambah"/>
         <viewElements xsi:type="dop-extension:ModifiedForm" id="_gDpwQC_NEfCjVuKd7CnPOg" name="Modified Form">
-          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_vakP4C_NEfCjVuKd7CnPOg" name="OnSubmit Event">
+          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_vakP4C_NEfCjVuKd7CnPOg" name="Simpan Wishlist Note">
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_G6rVIC_XEfCjVuKd7CnPOg"/>
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_ofmHEDFoEfCx3bNOR2Sw8w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
           </viewElementEvents>

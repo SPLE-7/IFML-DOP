@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
-<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:dop-extension="http://amanah.cs.ui.ac.id/ifml/dop" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_94EAoCULEfCt35NHVF_M3w">
+<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:dop-extension="http://amanah.cs.ui.ac.id/ifml/dop" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_94EAoCULEfCt35NHVF_M3w">
   <interactionFlowModel id="_N3jjMCUMEfCt35NHVF_M3w">
     <interactionFlowModelElements xsi:type="dop-extension:DeltaModuleDefinition" id="_N3l_cCUMEfCt35NHVF_M3w" name="Renewal">
       <inputPorts id="_Ms6qICUOEfCt35NHVF_M3w" name="Input Port"/>
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_VL1pICUMEfCt35NHVF_M3w" name="Lihat Peminjaman Renewal Page">
         <annotations text="/peminjaman/renewal/list"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.8/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
         <viewElements xsi:type="dop-extension:ModifiedList" id="_gNs0ECUMEfCt35NHVF_M3w" name="List Peminjaman Renewal">
           <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_jxiHMCUMEfCt35NHVF_M3w" name="List Peminjaman Renewal" uniformResourceIdentifier="/call/renewal/list">
             <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_vVFC4CUMEfCt35NHVF_M3w" name="Renewal Count" featureConcept="//@domainModel/@domainElements.52"/>
@@ -18,6 +19,9 @@
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_8to_cCUMEfCt35NHVF_M3w" name="Tambah Peminjaman Renewal Page">
         <annotations text="/peminjaman/renewal/tambah"/>
         <viewElements xsi:type="dop-extension:ModifiedForm" id="_AZg0QCUNEfCt35NHVF_M3w" name="Tambah Peminjaman Renewal">
+          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_CFR4ADI-EfCcDqe_I5zXcA" name="Simpan Renewal">
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_INPUwDI-EfCcDqe_I5zXcA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
+          </viewElementEvents>
           <viewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_WGxx8CUNEfCt35NHVF_M3w" name="Renewal Count">
             <annotations text="Required"/>
             <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_q1HCMCUNEfCt35NHVF_M3w" name="Renewal Count">
@@ -28,6 +32,12 @@
           <modifies href="Peminjaman.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0"/>
         </viewElements>
         <modifies href="Peminjaman.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="dop-extension:AddedAction" id="_EV-IQDI-EfCcDqe_I5zXcA" name="Create Renewal" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="POST"/>
+        <actionEvents xsi:type="dop-extension:AddedActionEvent" id="_KXeXsDI-EfCcDqe_I5zXcA" name="AddedActionEvent">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_Ly5M0DI-EfCcDqe_I5zXcA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </actionEvents>
       </interactionFlowModelElement>
       <uses href="Peminjaman.core#//@interactionFlowModel/@interactionFlowModelElements.0"/>
     </interactionFlowModelElements>

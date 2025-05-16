@@ -12,15 +12,16 @@
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_LNXssDF0EfCx3bNOR2Sw8w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>
         <viewElements xsi:type="dop-extension:ModifiedList" id="_0b4A4CEXEfCyTIMTUXcE5w" name="List Buku Digital">
-          <viewElementEvents id="_cRmAcDIpEfCx3bNOR2Sw8w" name="Delete">
-            <outInteractionFlows xsi:type="core:NavigationFlow" id="_yxptADIpEfCx3bNOR2Sw8w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.1">
-              <parameterBindingGroup id="_6gMtEDIpEfCx3bNOR2Sw8w">
-                <parameterBindings id="__14_YDIpEfCx3bNOR2Sw8w">
+          <viewElementEvents xsi:type="dop-extension:ModifiedViewElementEvent" id="_Mti7YDI3EfCcDqe_I5zXcA" name="Delete">
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_UX4J0DI3EfCcDqe_I5zXcA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.1">
+              <parameterBindingGroup id="_Nm3MMDI7EfCcDqe_I5zXcA">
+                <parameterBindings id="_gjl78DI7EfCcDqe_I5zXcA">
                   <sourceParameter href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
                   <targetParameter href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
                 </parameterBindings>
               </parameterBindingGroup>
             </outInteractionFlows>
+            <modifies href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0"/>
           </viewElementEvents>
           <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_5XlF4CEXEfCyTIMTUXcE5w" name="List Buku Digital" uniformResourceIdentifier="/call/bukudigital/list">
             <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_-ZtjACEXEfCyTIMTUXcE5w" name="Link Buku">
@@ -30,16 +31,17 @@
           </viewComponentParts>
           <modifies href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0"/>
         </viewElements>
-        <viewElements xsi:type="ext:IFMLWindow" id="_mm4ZQDIpEfCx3bNOR2Sw8w" name="Confirm Delete Buku Digital" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0" isModal="true">
-          <viewElementEvents id="_syLd4DIpEfCx3bNOR2Sw8w" name="Confirm Delete">
-            <outInteractionFlows xsi:type="core:NavigationFlow" id="_3PoUMDIpEfCx3bNOR2Sw8w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3">
-              <parameterBindingGroup id="_ZSJXUDIqEfCx3bNOR2Sw8w">
-                <parameterBindings id="_azw7EDIqEfCx3bNOR2Sw8w">
+        <viewElements xsi:type="ext:IFMLWindow" id="_mm4ZQDIpEfCx3bNOR2Sw8w" name="Confirm Delete Buku Digital" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+          <viewElementEvents xsi:type="dop-extension:ModifiedViewElementEvent" id="_O_koYDI3EfCcDqe_I5zXcA" name="Confirm Delete">
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_VGTWEDI3EfCcDqe_I5zXcA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3">
+              <parameterBindingGroup id="_oNvkMDI7EfCcDqe_I5zXcA">
+                <parameterBindings id="_qTcscDI7EfCcDqe_I5zXcA">
                   <sourceParameter href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
                   <targetParameter href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
                 </parameterBindings>
               </parameterBindingGroup>
             </outInteractionFlows>
+            <modifies href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.1/@viewElementEvents.0"/>
           </viewElementEvents>
         </viewElements>
         <modifies href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
@@ -47,7 +49,7 @@
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_m5fkgCEYEfCyTIMTUXcE5w" name="Tambah Buku Digital page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.0">
         <annotations text="/daftarbuku/digital/tambah"/>
         <viewElements xsi:type="dop-extension:ModifiedForm" id="_JO9QcCEnEfCyTIMTUXcE5w" name="Form Buku Digital">
-          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_JJLnYDF0EfCx3bNOR2Sw8w" name="OnSubmit Event">
+          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_JJLnYDF0EfCx3bNOR2Sw8w" name="Simpan Buku Digital">
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_L7McADF0EfCx3bNOR2Sw8w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
           </viewElementEvents>
           <viewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_P4TjACEnEfCyTIMTUXcE5w" name="Link Buku">
