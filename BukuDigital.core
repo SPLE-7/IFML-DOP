@@ -6,12 +6,12 @@
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_uZm8cCEXEfCyTIMTUXcE5w" name="Lihat Buku Digital Page">
         <annotations text="/daftarbuku/digital/list"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
-        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.12/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.9/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElementEvents id="_F59SUDF0EfCx3bNOR2Sw8w" name="ViewElement Event">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_LNXssDF0EfCx3bNOR2Sw8w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>
         <viewElements xsi:type="dop-extension:ModifiedList" id="_0b4A4CEXEfCyTIMTUXcE5w" name="List Buku Digital">
-          <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_5XlF4CEXEfCyTIMTUXcE5w" name="List Buku Digital">
+          <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_5XlF4CEXEfCyTIMTUXcE5w" name="List Buku Digital" uniformResourceIdentifier="/call/bukudigital/list">
             <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_-ZtjACEXEfCyTIMTUXcE5w" name="Link Buku">
               <featureConcept href="Statistik.core#//@domainModel/@domainElements.14"/>
             </subViewComponentParts>
@@ -38,7 +38,7 @@
         </viewElements>
         <modifies href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
       </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="dop-extension:AddedAction" id="_DRdmEDF0EfCx3bNOR2Sw8w" name="Simpan Buku Digital" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+      <interactionFlowModelElement xsi:type="dop-extension:AddedAction" id="_DRdmEDF0EfCx3bNOR2Sw8w" name="Create Buku Digital" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
         <annotations text="POST"/>
         <actionEvents xsi:type="dop-extension:AddedActionEvent" id="_Qni2YDF0EfCx3bNOR2Sw8w" name="AddedActionEvent">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_RimJYDF0EfCx3bNOR2Sw8w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>

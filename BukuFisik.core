@@ -5,7 +5,7 @@
       <inputPorts id="_3m8mkCGXEfCdUM_iKtJ5JQ" name="Input Port"/>
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_nAshECEKEfCyTIMTUXcE5w" name="Lihat Buku Fisik Page">
         <annotations text="/daftarbuku/fisik/list"/>
-        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.13/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.10/@viewElementEvents.0/@outInteractionFlows.0"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
         <viewElementEvents id="_WLBqEDGVEfCx3bNOR2Sw8w" name="ViewElement Event">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_bIKScDGVEfCx3bNOR2Sw8w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
@@ -38,7 +38,7 @@
         </viewElements>
         <modifies href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
       </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="dop-extension:AddedAction" id="_-aLrEDGUEfCx3bNOR2Sw8w" name="Simpan Buku Fisik" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+      <interactionFlowModelElement xsi:type="dop-extension:AddedAction" id="_-aLrEDGUEfCx3bNOR2Sw8w" name="Create Buku Fisik" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
         <annotations text="POST"/>
         <actionEvents xsi:type="dop-extension:AddedActionEvent" id="_AP_WIDGVEfCx3bNOR2Sw8w" name="AddedActionEvent">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_cf0B4DGVEfCx3bNOR2Sw8w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>

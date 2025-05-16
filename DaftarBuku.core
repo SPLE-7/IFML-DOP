@@ -60,10 +60,6 @@
           <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_86cfwCEDEfCyTIMTUXcE5w" name="SImpan Buku">
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_jvWT0CEEEfCyTIMTUXcE5w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3"/>
           </viewElementEvents>
-          <viewComponentParts xsi:type="ext:SimpleField" id="_2Wk1ACEBEfCyTIMTUXcE5w" name="Id Buku">
-            <annotations text="Required"/>
-            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_gF06UCECEfCyTIMTUXcE5w" name="Id Buku"/>
-          </viewComponentParts>
           <viewComponentParts xsi:type="ext:SimpleField" id="_8ekuACEBEfCyTIMTUXcE5w" name="Judul Buku">
             <annotations text="Required"/>
             <subViewComponentParts xsi:type="ext:IFMLSlot" id="_reoloCECEfCyTIMTUXcE5w" name="Judul Buku">
@@ -108,13 +104,13 @@
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_Bx4IwCEEEfCyTIMTUXcE5w" name="Hapus Buku" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0">
+      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_Bx4IwCEEEfCyTIMTUXcE5w" name="Delete Buku" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0">
         <annotations text="DELETE"/>
         <actionEvents id="_Od5IYCEEEfCyTIMTUXcE5w">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_eGl7kCEEEfCyTIMTUXcE5w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </actionEvents>
       </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_Cec64CEEEfCyTIMTUXcE5w" name="Simpan Buku" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_Cec64CEEEfCyTIMTUXcE5w" name="Create Buku" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
         <annotations text="POST"/>
         <actionEvents id="_kpGmUCEEEfCyTIMTUXcE5w">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_mQh3ICEEEfCyTIMTUXcE5w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>

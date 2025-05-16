@@ -6,7 +6,7 @@
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_HQhGwCSpEfCF5alrS0jZdg" name="Lihat Peminjaman Page">
         <annotations text="/peminjaman/list"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
-        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.15/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.12/@viewElementEvents.0/@outInteractionFlows.0"/>
         <viewElementEvents id="_A1vIICULEfCt35NHVF_M3w" name="Tambah Peminjaman">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_CcmYQCULEfCt35NHVF_M3w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>
@@ -44,7 +44,7 @@
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_yljcgCUJEfCt35NHVF_M3w" name="Simpan Peminjaman" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_yljcgCUJEfCt35NHVF_M3w" name="Create Peminjaman" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
         <annotations text="POST"/>
         <actionEvents id="__LOjkCUJEfCt35NHVF_M3w">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_BtRpkCUKEfCt35NHVF_M3w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>

@@ -21,6 +21,7 @@
       </viewElementEvents>
     </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_kqxbMCafEfCdl9B06udFTw" name="Wishlist">
+      <annotations text="Wishlist"/>
       <viewElementEvents id="_oMRMACafEfCdl9B06udFTw" name="ViewElement Event">
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_s8c9gCafEfCdl9B06udFTw">
           <targetInteractionFlowElement xsi:type="core:ViewContainer" href="Wishlist.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
@@ -28,27 +29,15 @@
       </viewElementEvents>
     </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_KEyBwCakEfCdl9B06udFTw" name="Review">
+      <annotations text="Review"/>
       <viewElementEvents id="_MVfgICakEfCdl9B06udFTw" name="ViewElement Event">
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_NjMCUCakEfCdl9B06udFTw">
           <targetInteractionFlowElement xsi:type="core:ViewContainer" href="Review.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </outInteractionFlows>
       </viewElementEvents>
     </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_LWxXICzQEfC6gIGEcR_iUw" name="AuthorRecommendation">
-      <viewElementEvents id="_Q4nPECzQEfC6gIGEcR_iUw" name="ViewElement Event">
-        <outInteractionFlows xsi:type="core:NavigationFlow" id="_SOKFsCzQEfC6gIGEcR_iUw">
-          <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="AuthorRecommendation.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
-        </outInteractionFlows>
-      </viewElementEvents>
-    </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_ZkN30CzREfC6gIGEcR_iUw" name="GenreRecommendation">
-      <viewElementEvents id="_eFBwkCzREfC6gIGEcR_iUw" name="ViewElement Event">
-        <outInteractionFlows xsi:type="core:NavigationFlow" id="_fCzncCzREfC6gIGEcR_iUw">
-          <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="GenreRecommendation.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
-        </outInteractionFlows>
-      </viewElementEvents>
-    </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_6xF28CzSEfC6gIGEcR_iUw" name="WishlistWithNote">
+      <annotations text="WishlistWithNote"/>
       <viewElementEvents id="_9t2jACzSEfC6gIGEcR_iUw" name="ViewElement Event">
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_-kyyECzSEfC6gIGEcR_iUw">
           <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="WishlistWithNote.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
@@ -56,20 +45,15 @@
       </viewElementEvents>
     </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_OBA9kCzVEfC6gIGEcR_iUw" name="WishlistWithStatus">
+      <annotations text="WishlistWithStatus"/>
       <viewElementEvents id="_RiUhICzVEfC6gIGEcR_iUw" name="ViewElement Event">
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_SNMDECzVEfC6gIGEcR_iUw">
           <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="WishlistWithStatus.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </outInteractionFlows>
       </viewElementEvents>
     </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_XzaPQCzWEfC6gIGEcR_iUw" name="ReviewBintang">
-      <viewElementEvents id="_bVcyoCzWEfC6gIGEcR_iUw" name="ViewElement Event">
-        <outInteractionFlows xsi:type="core:NavigationFlow" id="_foacoCzWEfC6gIGEcR_iUw">
-          <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="ReviewBintang.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
-        </outInteractionFlows>
-      </viewElementEvents>
-    </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_6qPrQCzWEfC6gIGEcR_iUw" name="ReviewKomentar">
+      <annotations text="ReviewKomentar"/>
       <viewElementEvents id="__uBHICzWEfC6gIGEcR_iUw" name="ViewElement Event">
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_ApaYYCzXEfC6gIGEcR_iUw">
           <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="ReviewKomentar.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
@@ -77,6 +61,7 @@
       </viewElementEvents>
     </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_jdZ3kCzeEfC6gIGEcR_iUw" name="Renewal">
+      <annotations text="Renewal"/>
       <viewElementEvents id="_uknckCzeEfC6gIGEcR_iUw" name="ViewElement Event">
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_vsrQ0CzeEfC6gIGEcR_iUw">
           <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="Renewal.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
@@ -84,6 +69,7 @@
       </viewElementEvents>
     </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_JhTXADF1EfCx3bNOR2Sw8w" name="BukuDigital">
+      <annotations text="BukuDigital"/>
       <viewElementEvents id="_jJcK0DGhEfCx3bNOR2Sw8w" name="ViewElement Event">
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_sUV0IDGhEfCx3bNOR2Sw8w">
           <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="BukuDigital.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
@@ -91,6 +77,7 @@
       </viewElementEvents>
     </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_7vQn0DGSEfCx3bNOR2Sw8w" name="BukuFisik">
+      <annotations text="BukuFisik"/>
       <viewElementEvents id="_9BiIADGSEfCx3bNOR2Sw8w" name="ViewElement Event">
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_GfpBMDGTEfCx3bNOR2Sw8w">
           <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="BukuFisik.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
@@ -98,6 +85,7 @@
       </viewElementEvents>
     </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_UM-tYDGzEfCx3bNOR2Sw8w" name="Statistik">
+      <annotations text="Statistik"/>
       <viewElementEvents id="_X39KUDGzEfCx3bNOR2Sw8w" name="ViewElement Event">
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_bWJIcDGzEfCx3bNOR2Sw8w">
           <targetInteractionFlowElement xsi:type="core:ViewContainer" href="Statistik.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>

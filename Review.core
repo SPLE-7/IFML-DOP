@@ -28,7 +28,7 @@
           <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_e5Q8gCHyEfCYKd9j4aQklA" name="Simpan Review">
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_wYOtwCHyEfCYKd9j4aQklA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
           </viewElementEvents>
-          <viewComponentParts xsi:type="core:DataBinding" id="_Hdca8CUWEfCt35NHVF_M3w" name="Data Buku" uniformResourceIdentifier="call/review">
+          <viewComponentParts xsi:type="core:DataBinding" id="_Hdca8CUWEfCt35NHVF_M3w" name="Data Buku" uniformResourceIdentifier="/call/buku/list">
             <subViewComponentParts xsi:type="ext:SelectionField" id="_OLjRsCUWEfCt35NHVF_M3w" name="Judul Buku">
               <annotations text="Required"/>
               <subViewComponentParts xsi:type="ext:IFMLSlot" id="_tfBUoCUWEfCt35NHVF_M3w" name="Id Buku"/>
@@ -36,11 +36,12 @@
             </subViewComponentParts>
           </viewComponentParts>
           <viewComponentParts xsi:type="ext:SimpleField" id="_eBgB0DG7EfCx3bNOR2Sw8w" name="Simple Field">
+            <annotations text="Required"/>
             <subViewComponentParts xsi:type="ext:IFMLSlot" id="_4u_YIDG7EfCx3bNOR2Sw8w" name="skor"/>
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_j2RCACHyEfCYKd9j4aQklA" name="Simpan Review" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_j2RCACHyEfCYKd9j4aQklA" name="Create Review" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
         <annotations text="POST"/>
         <actionEvents id="_bXerACUXEfCt35NHVF_M3w">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_2YKP4CHyEfCYKd9j4aQklA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0"/>

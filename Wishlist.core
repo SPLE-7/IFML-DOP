@@ -64,14 +64,16 @@
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_v91xUCXjEfCtKsRWf9cAMQ" name="Simpan Wishlist" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_v91xUCXjEfCtKsRWf9cAMQ" name="Create Wishlist" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="POST"/>
         <annotations text="POST"/>
         <actionEvents id="_zK0qsCXjEfCtKsRWf9cAMQ">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_0zmmYCXjEfCtKsRWf9cAMQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </actionEvents>
       </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_8YItUCcsEfCi44zdTcSjuA" name="Hapus Wishlist" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@viewElementEvents.0/@outInteractionFlows.0">
+      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_8YItUCcsEfCi44zdTcSjuA" name="Delete Wishlist" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@viewElementEvents.0/@outInteractionFlows.0">
         <annotations text="POST"/>
+        <annotations text="DELETE"/>
         <actionEvents id="_OzP9wCctEfCi44zdTcSjuA">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_PwwH0CctEfCi44zdTcSjuA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </actionEvents>

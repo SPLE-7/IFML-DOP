@@ -5,14 +5,14 @@
       <inputPorts id="_DJ6dUCUjEfCt35NHVF_M3w" name="Input Port"/>
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_NAcTACUiEfCt35NHVF_M3w" name="Lihat Wishlist With Note Page">
         <annotations text="/wishlist/note/list"/>
-        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.7/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.5/@viewElementEvents.0/@outInteractionFlows.0"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
         <viewElementEvents id="_jMbe4CXkEfCtKsRWf9cAMQ" name="Tambah Peminjaman">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_qen6ICXkEfCtKsRWf9cAMQ"/>
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_N3DRYC_XEfCjVuKd7CnPOg" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>
         <viewElements xsi:type="dop-extension:ModifiedList" id="_eOvyECUiEfCt35NHVF_M3w" name="List Wishlist With Note">
-          <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_oy7igCUiEfCt35NHVF_M3w" name="List Wishlist With Note">
+          <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_oy7igCUiEfCt35NHVF_M3w" name="List Wishlist With Note" uniformResourceIdentifier="/call/wishlistwithnote/list">
             <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_xNZ0cCUiEfCt35NHVF_M3w" name="notes" featureConcept="//@domainModel/@domainElements.67"/>
             <modifies href="Wishlist.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0"/>
           </viewComponentParts>
@@ -34,7 +34,7 @@
         </viewElements>
         <modifies href="Wishlist.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
       </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="dop-extension:AddedAction" id="_nORpIDFoEfCx3bNOR2Sw8w" name="Simpan Wishlist Note" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.1">
+      <interactionFlowModelElement xsi:type="dop-extension:AddedAction" id="_nORpIDFoEfCx3bNOR2Sw8w" name="Create Wishlist Note" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.1">
         <annotations text="POST"/>
         <actionEvents xsi:type="dop-extension:AddedActionEvent" id="_yIqTEDFoEfCx3bNOR2Sw8w" name="AddedActionEvent">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_ytrEoDFoEfCx3bNOR2Sw8w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
