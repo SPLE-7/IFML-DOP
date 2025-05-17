@@ -7,9 +7,8 @@
         <annotations text="/wishlist/note/list"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.5/@viewElementEvents.0/@outInteractionFlows.0"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
-        <viewElementEvents xsi:type="dop-extension:ModifiedViewElementEvent" id="_4bjV8DJDEfCcDqe_I5zXcA" name="Tambah Wishlist Note">
-          <outInteractionFlows xsi:type="core:NavigationFlow" id="_5_cKkDJDEfCcDqe_I5zXcA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
-          <modifies href="Wishlist.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0"/>
+        <viewElementEvents id="_lIBY4DLJEfCcDqe_I5zXcA" name="Tambah Wishlist Note">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_luimUDLJEfCcDqe_I5zXcA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>
         <viewElements xsi:type="dop-extension:ModifiedList" id="_eOvyECUiEfCt35NHVF_M3w" name="List Wishlist With Note">
           <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_oy7igCUiEfCt35NHVF_M3w" name="List Wishlist With Note" uniformResourceIdentifier="/call/wishlistwithnote/list">

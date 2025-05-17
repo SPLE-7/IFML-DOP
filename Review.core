@@ -37,7 +37,7 @@
           </viewComponentParts>
           <viewComponentParts xsi:type="ext:SimpleField" id="_eBgB0DG7EfCx3bNOR2Sw8w" name="Simple Field">
             <annotations text="Required"/>
-            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_4u_YIDG7EfCx3bNOR2Sw8w" name="skor"/>
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_4u_YIDG7EfCx3bNOR2Sw8w" name="score"/>
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>

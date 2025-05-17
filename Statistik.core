@@ -9,9 +9,9 @@
           <annotations text="Tab"/>
           <viewElements xsi:type="core:ViewContainer" id="_9zcA4DGkEfCx3bNOR2Sw8w" name="ListGenre">
             <annotations text="/list-table-statistik?tab=ListGenre"/>
-            <viewElements xsi:type="ext:List" id="_FE9GsDGlEfCx3bNOR2Sw8w" name="List Genre">
+            <viewElements xsi:type="ext:List" id="_FE9GsDGlEfCx3bNOR2Sw8w" name="Chart Genre">
               <annotations text="PieChart"/>
-              <viewComponentParts xsi:type="core:DataBinding" id="_eNBdsDGtEfCx3bNOR2Sw8w" name="List Genre" uniformResourceIdentifier="/call/statistik/list">
+              <viewComponentParts xsi:type="core:DataBinding" id="_eNBdsDGtEfCx3bNOR2Sw8w" name="List Genre" uniformResourceIdentifier="call/buku/list">
                 <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_lYCS4DGtEfCx3bNOR2Sw8w" name="jumlahBuku">
                   <annotations text="isSource"/>
                 </subViewComponentParts>
@@ -26,9 +26,9 @@
           </viewElements>
           <viewElements xsi:type="core:ViewContainer" id="_AdiPoDGlEfCx3bNOR2Sw8w" name="ListAuthor">
             <annotations text="/list-table-statistik?tab=ListPenulis"/>
-            <viewElements xsi:type="ext:List" id="_HDLG4DGlEfCx3bNOR2Sw8w" name="List Penulis">
+            <viewElements xsi:type="ext:List" id="_HDLG4DGlEfCx3bNOR2Sw8w" name="Chart Penulis">
               <annotations text="PieChart"/>
-              <viewComponentParts xsi:type="core:DataBinding" id="_f-rBgDGtEfCx3bNOR2Sw8w" name="List Penulis" uniformResourceIdentifier="/call/statistik/list">
+              <viewComponentParts xsi:type="core:DataBinding" id="_f-rBgDGtEfCx3bNOR2Sw8w" name="List Penulis" uniformResourceIdentifier="call/buku/list">
                 <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_2_Wu4DGtEfCx3bNOR2Sw8w" name="jumlahBuku">
                   <annotations text="isSource"/>
                 </subViewComponentParts>

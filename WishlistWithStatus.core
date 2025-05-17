@@ -6,9 +6,8 @@
         <annotations text="/wishlist/status/list"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.6/@viewElementEvents.0/@outInteractionFlows.0"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
-        <viewElementEvents xsi:type="dop-extension:ModifiedViewElementEvent" id="_FJaIoDJEEfCcDqe_I5zXcA" name="Tambah Wishlist Status">
-          <outInteractionFlows xsi:type="core:NavigationFlow" id="_GEG2UDJEEfCcDqe_I5zXcA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
-          <modifies href="Wishlist.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0"/>
+        <viewElementEvents id="_o1AoADLJEfCcDqe_I5zXcA" name="Tambah Wishlist Status">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_pWXooDLJEfCcDqe_I5zXcA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>
         <viewElements xsi:type="dop-extension:ModifiedList" id="_q7wawCUjEfCt35NHVF_M3w" name="List Wishlist With Status">
           <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_yIlN0CUjEfCt35NHVF_M3w" name="List Wishlist With Status" uniformResourceIdentifier="/call/wishlistwithstatus/list">
