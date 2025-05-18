@@ -12,9 +12,7 @@
         <viewElements xsi:type="ext:List" id="_qUWEQCHoEfCYKd9j4aQklA" name="List Review" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0">
           <parameters id="_4xta0CHqEfCYKd9j4aQklA" name="id_buku"/>
           <viewComponentParts xsi:type="core:DataBinding" id="_LBIYoCHrEfCYKd9j4aQklA" name="Detail Review" uniformResourceIdentifier="call/review/list">
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_Pm6Q8CHrEfCYKd9j4aQklA" name="Id Review">
-              <featureConcept href="Renewal.core#//@domainModel/@domainElements.36"/>
-            </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_Pm6Q8CHrEfCYKd9j4aQklA" name="Id Review"/>
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_jlzoUCHrEfCYKd9j4aQklA" name="Tanggal Review">
               <featureConcept href="Renewal.core#//@domainModel/@domainElements.37"/>
             </subViewComponentParts>
@@ -32,10 +30,10 @@
             <subViewComponentParts xsi:type="ext:SelectionField" id="_OLjRsCUWEfCt35NHVF_M3w" name="Judul Buku">
               <annotations text="Required"/>
               <subViewComponentParts xsi:type="ext:IFMLSlot" id="_tfBUoCUWEfCt35NHVF_M3w" name="Id Buku"/>
-              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_1YhAcCUWEfCt35NHVF_M3w" name="Judul Buku" direction="out"/>
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_1YhAcCUWEfCt35NHVF_M3w" name="Judul Buku"/>
             </subViewComponentParts>
           </viewComponentParts>
-          <viewComponentParts xsi:type="ext:SimpleField" id="_eBgB0DG7EfCx3bNOR2Sw8w" name="Simple Field">
+          <viewComponentParts xsi:type="ext:SimpleField" id="_eBgB0DG7EfCx3bNOR2Sw8w" name="Score">
             <annotations text="Required"/>
             <subViewComponentParts xsi:type="ext:IFMLSlot" id="_4u_YIDG7EfCx3bNOR2Sw8w" name="score"/>
           </viewComponentParts>

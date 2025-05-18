@@ -8,7 +8,7 @@
         <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.10/@viewElementEvents.0/@outInteractionFlows.0"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@actionEvents.0/@outInteractionFlows.0"/>
-        <viewElementEvents id="_WLBqEDGVEfCx3bNOR2Sw8w" name="ViewElement Event">
+        <viewElementEvents id="_WLBqEDGVEfCx3bNOR2Sw8w" name="Tambah Buku Fisik">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_bIKScDGVEfCx3bNOR2Sw8w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>
         <viewElements xsi:type="dop-extension:ModifiedList" id="__IDioCEKEfCyTIMTUXcE5w" name="List Buku Fisik">

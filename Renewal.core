@@ -7,8 +7,11 @@
         <annotations text="/peminjaman/renewal/list"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.8/@viewElementEvents.0/@outInteractionFlows.0"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
+        <viewElementEvents id="_kKP3cDPZEfCcDqe_I5zXcA" name="Tambah Renewal">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_k5hYQDPZEfCcDqe_I5zXcA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
+        </viewElementEvents>
         <viewElements xsi:type="dop-extension:ModifiedList" id="_gNs0ECUMEfCt35NHVF_M3w" name="List Peminjaman Renewal">
-          <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_jxiHMCUMEfCt35NHVF_M3w" name="List Peminjaman Renewal" uniformResourceIdentifier="/call/renewal/list">
+          <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_jxiHMCUMEfCt35NHVF_M3w" name="List Peminjaman Renewal" uniformResourceIdentifier="call/renewal/list">
             <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_vVFC4CUMEfCt35NHVF_M3w" name="Renewal Count" featureConcept="//@domainModel/@domainElements.52"/>
             <modifies href="Peminjaman.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0"/>
           </viewComponentParts>
@@ -16,7 +19,7 @@
         </viewElements>
         <modifies href="Peminjaman.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
       </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_8to_cCUMEfCt35NHVF_M3w" name="Tambah Peminjaman Renewal Page">
+      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_8to_cCUMEfCt35NHVF_M3w" name="Tambah Peminjaman Renewal Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.0">
         <annotations text="/peminjaman/renewal/tambah"/>
         <viewElements xsi:type="dop-extension:ModifiedForm" id="_AZg0QCUNEfCt35NHVF_M3w" name="Tambah Peminjaman Renewal">
           <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_CFR4ADI-EfCcDqe_I5zXcA" name="Simpan Renewal">

@@ -16,11 +16,11 @@
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_sm6VcCSpEfCF5alrS0jZdg" name="Id Peminjaman Buku">
               <featureConcept href="Wishlist.core#//@domainModel/@domainElements.21"/>
             </subViewComponentParts>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_uMkEoCSpEfCF5alrS0jZdg" name="Status Peminjaman">
-              <featureConcept href="test.core#//@domainModel/@domainElements.22"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_uMkEoCSpEfCF5alrS0jZdg" name="statusPeminjaman">
+              <featureConcept href="WishlistWithStatus.core#//@domainModel/@domainElements.22"/>
             </subViewComponentParts>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_wY2WACSpEfCF5alrS0jZdg" name="Judul Buku">
-              <featureConcept href="test.core#//@domainModel/@domainElements.2"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_wY2WACSpEfCF5alrS0jZdg" name="judulBuku">
+              <featureConcept href="WishlistWithStatus.core#//@domainModel/@domainElements.2"/>
             </subViewComponentParts>
           </viewComponentParts>
         </viewElements>
@@ -33,14 +33,21 @@
           </viewElementEvents>
           <viewComponentParts xsi:type="ext:SimpleField" id="_Asim8CSqEfCF5alrS0jZdg" name="Id Akun">
             <annotations text="Required"/>
-            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_OIXYoCUHEfCt35NHVF_M3w" name="Id Akun"/>
-          </viewComponentParts>
-          <viewComponentParts xsi:type="core:DataBinding" id="_UdVDsCUUEfCt35NHVF_M3w" name="Data Buku" uniformResourceIdentifier="call/peminjamanbuku">
-            <subViewComponentParts xsi:type="ext:SelectionField" id="_asIvUCUUEfCt35NHVF_M3w" name="Selection Field">
-              <annotations text="Required"/>
-              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_1KA8UCUUEfCt35NHVF_M3w" name="Id Buku"/>
-              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_9eD2ICUUEfCt35NHVF_M3w" name="Judul Buku" direction="out"/>
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_OIXYoCUHEfCt35NHVF_M3w" name="Id Akun">
+              <type xsi:type="uml:DataType" href="../LibraryManagementSystemUMLDOP/LibraryManagementSystemPapyrus.uml#_Oeg78CRQEfCt35NHVF_M3w"/>
             </subViewComponentParts>
+          </viewComponentParts>
+          <viewComponentParts xsi:type="ext:SimpleField" id="_ZvcdkDO6EfCcDqe_I5zXcA" name="ID Buku">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_o-cXUDO6EfCcDqe_I5zXcA" name="idBuku"/>
+          </viewComponentParts>
+          <viewComponentParts xsi:type="ext:SimpleField" id="_bUS7gDO6EfCcDqe_I5zXcA" name="Status">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_tl6RsDO6EfCcDqe_I5zXcA" name="status"/>
+          </viewComponentParts>
+          <viewComponentParts xsi:type="ext:SimpleField" id="_eLpjIDO6EfCcDqe_I5zXcA" name="Tanggal Peminjaman">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_wGFvcDO6EfCcDqe_I5zXcA" name="tanggalPeminjaman"/>
+          </viewComponentParts>
+          <viewComponentParts xsi:type="ext:SimpleField" id="_h3Dd4DO6EfCcDqe_I5zXcA" name="Tanggal Pengembalian">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_zUV0IDO6EfCcDqe_I5zXcA" name="tanggalPengembalian"/>
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>
