@@ -25,13 +25,13 @@
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_GCGzoDFyEfCx3bNOR2Sw8w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
           </viewElementEvents>
           <viewComponentParts xsi:type="dop-extension:AddedSlot" id="_SXyn0DPsEfCZLNXvXuCfJA" name="idBuku">
-            <subViewComponentParts xsi:type="dop-extension:AddedSelectionField" id="_bgre8DPsEfCZLNXvXuCfJA" name="idBuku"/>
+            <subViewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_okfuADQBEfCy2seahayDIA" name="idBuku"/>
           </viewComponentParts>
           <viewComponentParts xsi:type="dop-extension:AddedSlot" id="_UbSJkDPsEfCZLNXvXuCfJA" name="idAkun">
-            <subViewComponentParts xsi:type="dop-extension:AddedSelectionField" id="_inctUDPsEfCZLNXvXuCfJA" name="idAkun"/>
+            <subViewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_nmjfEDQBEfCy2seahayDIA" name="idAkun"/>
           </viewComponentParts>
           <viewComponentParts xsi:type="dop-extension:AddedSlot" id="_VXMYMDPsEfCZLNXvXuCfJA" name="status">
-            <subViewComponentParts xsi:type="dop-extension:AddedSelectionField" id="_kk4qYDPsEfCZLNXvXuCfJA" name="status"/>
+            <subViewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_mq358DQBEfCy2seahayDIA" name="status"/>
           </viewComponentParts>
           <modifies href="Wishlist.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0"/>
         </viewElements>
