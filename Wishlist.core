@@ -26,9 +26,6 @@
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_z0dhoCTzEfCF5alrS0jZdg" name="idBuku">
               <featureConcept href="Renewal.core#//@domainModel/@domainElements.1"/>
             </subViewComponentParts>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_1oE0UCTzEfCF5alrS0jZdg" name="Judul Buku">
-              <featureConcept href="test.core#//@domainModel/@domainElements.2"/>
-            </subViewComponentParts>
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_3aemECTzEfCF5alrS0jZdg" name="Penulis">
               <featureConcept href="Renewal.core#//@domainModel/@domainElements.3"/>
             </subViewComponentParts>
@@ -44,6 +41,9 @@
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_9HaTsCTzEfCF5alrS0jZdg" name="Genre">
               <featureConcept href="Renewal.core#//@domainModel/@domainElements.7"/>
             </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_FpUmkDPrEfCFd8J-FZ0UqQ" name="Judul Buku">
+              <featureConcept href="DaftarBuku.core#//@domainModel/@domainElements.2"/>
+            </subViewComponentParts>
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>
@@ -54,13 +54,12 @@
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_3bXS0CXjEfCtKsRWf9cAMQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
           </viewElementEvents>
           <viewComponentParts xsi:type="core:DataBinding" id="_EWP8QCXhEfCtKsRWf9cAMQ" name="Data Binding" uniformResourceIdentifier="call/buku/list">
-            <subViewComponentParts xsi:type="ext:SelectionField" id="_G8u2UCXhEfCtKsRWf9cAMQ" name="Selection Field">
-              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_Yg7s4CXhEfCtKsRWf9cAMQ" name="Id Buku"/>
-              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_Ar4G0CXiEfCtKsRWf9cAMQ" name="Judul Buku"/>
+            <subViewComponentParts xsi:type="ext:SimpleField" id="_2I6MsDPqEfCFd8J-FZ0UqQ" name="idBuku">
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_3HswMDPqEfCFd8J-FZ0UqQ" name="idBuku"/>
             </subViewComponentParts>
           </viewComponentParts>
-          <viewComponentParts xsi:type="ext:SimpleField" id="_FWy90CXiEfCtKsRWf9cAMQ" name="Id Akun">
-            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_KgNHoCXiEfCtKsRWf9cAMQ" name="Id Akun"/>
+          <viewComponentParts xsi:type="ext:SimpleField" id="_FWy90CXiEfCtKsRWf9cAMQ" name="IdAkun">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_KgNHoCXiEfCtKsRWf9cAMQ" name="IdAkun"/>
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>

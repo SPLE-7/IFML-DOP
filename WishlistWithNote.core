@@ -20,14 +20,20 @@
         <modifies href="Wishlist.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_eWsfMC_NEfCjVuKd7CnPOg" name="Add Wishlist With Note Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.0">
-        <annotations text="wishlist/note/tambah"/>
-        <viewElements xsi:type="dop-extension:ModifiedForm" id="_gDpwQC_NEfCjVuKd7CnPOg" name="Modified Form">
+        <annotations text="/wishlist/note/tambah"/>
+        <viewElements xsi:type="dop-extension:ModifiedForm" id="_gDpwQC_NEfCjVuKd7CnPOg" name="Add Wishlist With Note ">
           <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_vakP4C_NEfCjVuKd7CnPOg" name="Simpan Wishlist Note">
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_G6rVIC_XEfCjVuKd7CnPOg"/>
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_ofmHEDFoEfCx3bNOR2Sw8w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
           </viewElementEvents>
-          <viewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_nA-uwC_NEfCjVuKd7CnPOg" name="Added Simple Field">
-            <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_jGguMC_WEfCjVuKd7CnPOg" name="Notes"/>
+          <viewComponentParts xsi:type="dop-extension:AddedSlot" id="_sxWyADPrEfCZLNXvXuCfJA" name="idBuku">
+            <subViewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_1XceEDPrEfCZLNXvXuCfJA" name="idBuku"/>
+          </viewComponentParts>
+          <viewComponentParts xsi:type="dop-extension:AddedSlot" id="_txPhsDPrEfCZLNXvXuCfJA" name="idAkun">
+            <subViewComponentParts xsi:type="dop-extension:AddedSelectionField" id="_8dR4UDPrEfCZLNXvXuCfJA" name="idAkun"/>
+          </viewComponentParts>
+          <viewComponentParts xsi:type="dop-extension:AddedSlot" id="_uoVhwDPrEfCZLNXvXuCfJA" name="notes">
+            <subViewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_6VNYkDPrEfCZLNXvXuCfJA" name="notes"/>
           </viewComponentParts>
           <modifies href="Wishlist.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0"/>
         </viewElements>
