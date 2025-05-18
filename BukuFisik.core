@@ -7,22 +7,10 @@
         <annotations text="/daftarbuku/fisik/list"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="Main.core#//@interactionFlowModel/@interactionFlowModelElements.10/@viewElementEvents.0/@outInteractionFlows.0"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
-        <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@actionEvents.0/@outInteractionFlows.0"/>
         <viewElementEvents id="_WLBqEDGVEfCx3bNOR2Sw8w" name="Tambah Buku Fisik">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_bIKScDGVEfCx3bNOR2Sw8w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>
         <viewElements xsi:type="dop-extension:ModifiedList" id="__IDioCEKEfCyTIMTUXcE5w" name="List Buku Fisik">
-          <viewElementEvents xsi:type="dop-extension:ModifiedViewElementEvent" id="_-BlrADI7EfCcDqe_I5zXcA" name="Delete Buku Fisik">
-            <outInteractionFlows xsi:type="core:NavigationFlow" id="_AZrjwDI8EfCcDqe_I5zXcA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.1">
-              <parameterBindingGroup id="_DDPnADI8EfCcDqe_I5zXcA">
-                <parameterBindings id="_ZvIwIDI8EfCcDqe_I5zXcA">
-                  <sourceParameter href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
-                  <targetParameter href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
-                </parameterBindings>
-              </parameterBindingGroup>
-            </outInteractionFlows>
-            <modifies href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0"/>
-          </viewElementEvents>
           <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_JY118CELEfCyTIMTUXcE5w" name="List Buku Fisik" uniformResourceIdentifier="/call/bukufisik/list">
             <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_RTuo4CELEfCyTIMTUXcE5w" name="Jumlah Buku">
               <featureConcept href="BukuDigital.core#//@domainModel/@domainElements.10"/>
@@ -30,19 +18,6 @@
             <modifies href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0"/>
           </viewComponentParts>
           <modifies href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0"/>
-        </viewElements>
-        <viewElements xsi:type="ext:IFMLWindow" id="_uN9tIDIuEfCx3bNOR2Sw8w" name="Confirm Delete Buku Fisik" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
-          <viewElementEvents xsi:type="dop-extension:ModifiedViewElementEvent" id="__ArwgDI7EfCcDqe_I5zXcA" name="Confirm Delete Buku Fisik">
-            <outInteractionFlows xsi:type="core:NavigationFlow" id="_BbqlMDI8EfCcDqe_I5zXcA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3">
-              <parameterBindingGroup id="_GmPMoDI8EfCcDqe_I5zXcA">
-                <parameterBindings id="_az28gDI8EfCcDqe_I5zXcA">
-                  <sourceParameter href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
-                  <targetParameter href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
-                </parameterBindings>
-              </parameterBindingGroup>
-            </outInteractionFlows>
-            <modifies href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.1/@viewElementEvents.0"/>
-          </viewElementEvents>
         </viewElements>
         <modifies href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
       </interactionFlowModelElement>
@@ -67,12 +42,6 @@
         <annotations text="POST"/>
         <actionEvents xsi:type="dop-extension:AddedActionEvent" id="_AP_WIDGVEfCx3bNOR2Sw8w" name="AddedActionEvent">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_cf0B4DGVEfCx3bNOR2Sw8w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
-        </actionEvents>
-      </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="dop-extension:AddedAction" id="_4SXxUDIuEfCx3bNOR2Sw8w" name="Delete Buku Fisik" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.1/@viewElementEvents.0/@outInteractionFlows.0">
-        <annotations text="POST"/>
-        <actionEvents xsi:type="dop-extension:AddedActionEvent" id="_VKJN4DIvEfCx3bNOR2Sw8w" name="AddedActionEvent">
-          <outInteractionFlows xsi:type="core:NavigationFlow" id="_WGoEQDIvEfCx3bNOR2Sw8w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </actionEvents>
       </interactionFlowModelElement>
       <uses href="DaftarBuku.core#//@interactionFlowModel/@interactionFlowModelElements.0"/>
